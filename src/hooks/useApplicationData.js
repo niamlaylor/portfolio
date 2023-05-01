@@ -12,6 +12,15 @@ export default function useApplicationData( { apiKey }) {
   const setInput = input => setState({ ...state, input });
   const setWeatherData = weatherData => setState({ ...state, weatherData });
 
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    setInput(state.location);
+  };
+
+  const handleLocation = (event) => {
+    setLocation(event.target.value);
+  };
+
   useEffect(() => {
     axios.get(`http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${state.input}&aqi=no`)
     .then((response) => {
@@ -26,7 +35,7 @@ export default function useApplicationData( { apiKey }) {
 
   return {
     state,
-    setLocation,
-    setInput,
+    handleSubmit,
+    handleLocation
   };
 };

@@ -17,18 +17,9 @@ export default function Home( { apiKey }) {
 
   const {
     state,
-    setLocation,
-    setInput,
+    handleSubmit,
+    handleLocation
   } = useApplicationData( { apiKey });
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    setInput(state.location);
-  };
-
-  const handleLocation = (event) => {
-    setLocation(event.target.value);
-  };
 
   return (
     <main
