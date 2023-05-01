@@ -1,6 +1,7 @@
 import WeatherCard from "../components/WeatherCard";
 import axios from "axios";
 import { useState, useEffect } from "react";
+import useApplicationData from "../hooks/useApplicationData";
 
 export async function getServerSideProps() {
   const apiKey = process.env.API_KEY;
@@ -14,30 +15,20 @@ export async function getServerSideProps() {
 
 export default function Home( { apiKey }) {
 
-  const [location, setLocation] = useState('');
-  const [input, setInput] = useState('Vancouver');
-  const [weatherData, setWeatherData] = useState(null);
+  const {
+    state,
+    setLocation,
+    setInput,
+  } = useApplicationData( { apiKey });
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    setInput(location);
+    setInput(state.location);
   };
 
   const handleLocation = (event) => {
     setLocation(event.target.value);
   };
-
-  useEffect(() => {
-    axios.get(`http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${input}&aqi=no`)
-    .then((response) => {
-      console.log(response);
-      setWeatherData(response.data);
-    })
-    .catch((error) => {
-      console.log(error);
-      setWeatherData({ location: { name: 'N/A' }, current: { temp_c: 'N/A', condition: { text: 'N/A' } } })
-    })
-  }, [input]);
 
   return (
     <main
@@ -61,8 +52,8 @@ export default function Home( { apiKey }) {
           </button>
         </div>
       </form>
-      {weatherData && <WeatherCard weatherData={weatherData}/>}
-      {!weatherData && <p>Search for a city</p>}
+      {state.weatherData && <WeatherCard weatherData={state.weatherData}/>}
+      {!state.weatherData && <p>Search for a city</p>}
     </main>
   )
 }
