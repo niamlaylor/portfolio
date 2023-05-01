@@ -1,10 +1,14 @@
 import WeatherCard from "../../components/WeatherCard";
+import axios from "axios";
 import { useState, useEffect } from "react";
 
-export default function Home( { weatherData } ) {
+export default function Home() {
 
   const [location, setLocation] = useState('Victoria');
-  const [input, setInput] = useState('');
+  const [input, setInput] = useState('Victoria');
+  const [weatherData, setWeatherData] = useState(null);
+
+  const API_KEY = process.env.API_KEY;
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -16,7 +20,11 @@ export default function Home( { weatherData } ) {
   };
 
   useEffect(() => {
-
+    axios.get(`http://api.weatherapi.com/v1/current.json?key=6d7ec27d7824463caf2202523233004&q=${input}&aqi=no`)
+    .then((response) => {
+      console.log(response);
+      setWeatherData(response.data);
+    })
   }, [input]);
 
   return (
@@ -41,7 +49,8 @@ export default function Home( { weatherData } ) {
           </button>
         </div>
       </form>
-      <WeatherCard location={input} temperature={27} description={'Cloudy'}/>
+      {weatherData && <WeatherCard location={weatherData.location.name} temperature={weatherData.current.temp_c} description={weatherData.current.condition.text}/>}
+      {!weatherData && <p>Search for a city</p>}
     </main>
   )
 }
