@@ -1,4 +1,4 @@
-import WeatherCard from "../../components/WeatherCard";
+import WeatherCard from "../components/WeatherCard";
 import axios from "axios";
 import { useState, useEffect } from "react";
 
@@ -25,13 +25,17 @@ export default function Home() {
       console.log(response);
       setWeatherData(response.data);
     })
+    .catch((error) => {
+      console.log(error);
+      setWeatherData({ location: { name: 'N/A' }, current: { temp_c: 'N/A', condition: { text: 'N/A' } } })
+    })
   }, [input]);
 
   return (
     <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24`}
+      className={`flex min-h-screen flex-col items-center justify-center p-24`}
     >
-      <form className={"w-full max-w-sm"} onSubmit={handleSubmit}>
+      <form className={"w-full max-w-sm m-20"} onSubmit={handleSubmit}>
         <div className={"flex items-center border-b border-teal-500 py-2"}>
           <input
             className={"appearance-none bg-transparent border-none w-full mr-3 py-1 px-2 leading-tight focus:outline-none"}
@@ -49,7 +53,7 @@ export default function Home() {
           </button>
         </div>
       </form>
-      {weatherData && <WeatherCard location={weatherData.location.name} temperature={weatherData.current.temp_c} description={weatherData.current.condition.text}/>}
+      {weatherData && <WeatherCard weatherData={weatherData}/>}
       {!weatherData && <p>Search for a city</p>}
     </main>
   )
