@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <title>
-          Weather
+          Weather | By Liam
         </title>
       </Head>
       <body>

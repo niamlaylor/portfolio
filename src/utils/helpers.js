@@ -1,4 +1,8 @@
 export function removeDecimals(value) {
-  const wholeValue = Math.floor(value);
-  return wholeValue;
+  if (typeof value === 'number') {
+    const wholeValue = Math.floor(value);
+    return wholeValue;
+  } else {
+    return 'N/A';
+  }
 };
