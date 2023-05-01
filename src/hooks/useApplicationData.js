@@ -29,7 +29,7 @@ export default function useApplicationData( { apiKey }) {
     })
     .catch((error) => {
       console.log(error);
-      setWeatherData({ location: { name: 'N/A' }, current: { temp_c: 'N/A', condition: { text: 'N/A' } } })
+      setWeatherData({ location: { name: 'N/A' }, current: { temp_c: 'N/A', condition: { text: 'N/A', icon:'../../public/favicon.ico' } } })
     })
   }, [state.input]);
 
