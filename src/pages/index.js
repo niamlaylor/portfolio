@@ -17,7 +17,8 @@ export default function Home( { apiKey }) {
   const {
     state,
     handleSubmit,
-    handleLocation
+    handleLocation,
+    handleToggle
   } = useApplicationData( { apiKey });
 
   return (
@@ -25,7 +26,7 @@ export default function Home( { apiKey }) {
       className={`flex min-h-screen flex-col items-center justify-center p-24`}
     >
       <SearchForm handleLocation={handleLocation} handleSubmit={handleSubmit} />
-      {state.weatherData && <WeatherCard weatherData={state.weatherData}/>}
+      {state.weatherData && <WeatherCard weatherData={state.weatherData} handleToggle={handleToggle} unit={state.unit}/>}
       {!state.weatherData && <p>Search for a city</p>}
     </main>
   )
