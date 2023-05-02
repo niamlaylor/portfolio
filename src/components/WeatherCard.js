@@ -27,7 +27,9 @@ export default function WeatherCard ({ weatherData, handleToggle, handleExpand, 
           handleExpand={handleExpand} 
           unit={unit}
         />
-        <p>Forecast</p>
+        <div className="flex items-center justify-end">
+          <a href="/" className="text-teal-500 underline">Forecast</a>
+        </div>
       </div>
     </div>
   );
