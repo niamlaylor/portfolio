@@ -27,6 +27,7 @@ export default function WeatherCard ({ weatherData, handleToggle, handleExpand, 
           handleExpand={handleExpand} 
           unit={unit}
         />
+        <p>Forecast</p>
       </div>
     </div>
   );
