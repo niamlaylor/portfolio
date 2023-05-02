@@ -1,4 +1,6 @@
-export default function ForecastCard ({ unit }) {
+export default function ForecastCard ({ forecastData, unit }) {
+
+  const { forecast } = forecastData;
 
   return (
     <div className="rounded-lg p-4 w-80 mt-10 border border-gray-300">
@@ -10,7 +12,7 @@ export default function ForecastCard ({ unit }) {
           </tr>
           <tr>
             <td className="font-semibold">Region:</td>
-            <td>70</td>
+            <td>{forecast.forecastday[0].date}</td>
           </tr>
           <tr>
             <td className="font-semibold">Condition:</td>
