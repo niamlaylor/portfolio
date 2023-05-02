@@ -1,4 +1,5 @@
 import WeatherCard from "@/components/WeatherCard";
+import ForecastCard from "@/components/ForecastCard";
 import SearchForm from "@/components/SearchForm";
 import useApplicationData from "../hooks/useApplicationData";
 
@@ -37,6 +38,7 @@ export default function Home( { apiKey }) {
         />
       }
       {!state.weatherData && <p>Search for a city</p>}
+      <ForecastCard/>
     </main>
   )
 }
