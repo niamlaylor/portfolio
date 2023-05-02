@@ -6,13 +6,15 @@ export default function useApplicationData( { apiKey }) {
     location: '',
     input: 'Vancouver',
     weatherData: null,
-    unit: 'c'
+    unit: 'c',
+    expanded: false
   });
 
   const setLocation = location => setState({ ...state, location });
   const setInput = input => setState({ ...state, input });
   const setWeatherData = weatherData => setState({ ...state, weatherData });
   const setUnit = unit => setState({ ...state, unit });
+  const setExpanded = expanded => setState({ ...state, expanded });
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -43,10 +45,15 @@ export default function useApplicationData( { apiKey }) {
     };
   };
 
+  const handleExpand = () => {
+    setExpanded(!state.expanded);
+  };
+
   return {
     state,
     handleSubmit,
     handleLocation,
-    handleToggle
+    handleToggle,
+    handleExpand
   };
 };
