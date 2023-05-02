@@ -8,6 +8,7 @@ export default function useApplicationData( { apiKey }) {
     weatherData: null,
     unit: 'c',
     expanded: false,
+    forecastData: null
   });
 
   const setLocation = location => setState({ ...state, location });
@@ -15,6 +16,7 @@ export default function useApplicationData( { apiKey }) {
   const setWeatherData = weatherData => setState({ ...state, weatherData });
   const setUnit = unit => setState({ ...state, unit });
   const setExpanded = expanded => setState({ ...state, expanded });
+  const setForecastData = forecastData => setState({ ...state, forecastData });
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -26,10 +28,12 @@ export default function useApplicationData( { apiKey }) {
   };
 
   useEffect(() => {
-    axios.get(`http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${state.input}&aqi=no`)
-    .then((response) => {
-      console.log(response);
-      setWeatherData(response.data);
+    Promise.all([
+      axios.get(`http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${state.input}&aqi=no`),
+      axios.get(`http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${state.input}&days=3&aqi=no&alerts=no`)
+    ])
+    .then((all) => {
+      setState(prev => ({...prev, weatherData: all[0].data, forecastData: all[1].data}))
     })
     .catch((error) => {
       console.log(error);
