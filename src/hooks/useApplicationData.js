@@ -33,11 +33,7 @@ export default function useApplicationData( { apiKey }) {
       axios.get(`http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${state.input}&days=3&aqi=no&alerts=no`)
     ])
     .then((all) => {
-      setWeatherData(all[0].data);
-      setForecastData(all[1].data);
-    })
-    .then(() => {
-      console.log('Updated weatherData', state.weatherData)
+      setState(prev => ({...prev, weatherData: all[0].data, forecastData: all[1].data}))
     })
     .catch((error) => {
       console.log(error);
