@@ -24,7 +24,7 @@ export default function Home( { apiKey }) {
 
   return (
     <main
-      className={`flex min-h-screen flex-col items-center justify-center p-24`}
+      className={`flex min-h-screen flex-col items-center p-24`}
     >
       <SearchForm handleLocation={handleLocation} handleSubmit={handleSubmit} />
       {state.weatherData && 
