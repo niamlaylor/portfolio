@@ -33,8 +33,9 @@ export default function TemperatureDisplay( { unit, temperature, expanded } ) {
       </p>
       {shouldRender && (
         <div
-          className={`transition-all duration-500 ${expanded ? 'h-auto' : 'h-0 overflow-hidden'}`}
-          onTransitionEnd={handleTransitionEnd}
+        style={{ transitionDuration: '500ms' }}
+        className={`transition-all ${expanded ? 'h-auto' : 'h-0 overflow-hidden'}`}
+        onTransitionEnd={handleTransitionEnd}
         >
           {expanded && (
             <p className="text-s mt-2">
