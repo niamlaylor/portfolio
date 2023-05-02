@@ -7,7 +7,7 @@ export default function useApplicationData( { apiKey }) {
     input: 'Vancouver',
     weatherData: null,
     unit: 'c',
-    expanded: false
+    expanded: false,
   });
 
   const setLocation = location => setState({ ...state, location });
