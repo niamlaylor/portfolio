@@ -34,7 +34,7 @@ export default function useApplicationData( { apiKey }) {
     ])
     .then((all) => {
       console.log('First call:', all[0].data);
-      console.log('Second call:', all[1].data.forecast);
+      console.log('Second call:', all[1].data);
       setWeatherData(all[0].data);
       setForecastData(all[1].data);
     })
