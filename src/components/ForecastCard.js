@@ -8,10 +8,7 @@ export default function ForecastCard ({ forecastData, unit }) {
     <div className="rounded-lg p-4 w-80 mt-10 border border-gray-300">
       <table className="w-full">
         <tbody>
-          <tr>
-            <td className="font-semibold">Forecast:</td>
-            <td></td>
-          </tr>
+          <ForecastCardLine forecastDay={forecastArray[0]} />
           <tr>
             <td className="font-semibold">Region:</td>
             <td>70</td>
