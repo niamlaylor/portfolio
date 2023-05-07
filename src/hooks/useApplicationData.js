@@ -44,6 +44,10 @@ export default function useApplicationData( { apiKey }) {
     })
   }, [state.input]);
 
+  console.log('Weather data from state:', state.weatherData);
+  console.log('Forecast data from state:', state.forecastData);
+
+
   const handleToggle = () => {
     if (state.unit === 'c') {
       setUnit('f')

@@ -1,4 +1,8 @@
+import ForecastCardLine from "./ForecastCardLine";
+
 export default function ForecastCard ({ forecastData, unit }) {
+
+  const forecastArray = forecastData.forecast.forecastday;
 
   return (
     <div className="rounded-lg p-4 w-80 mt-10 border border-gray-300">
@@ -6,7 +10,7 @@ export default function ForecastCard ({ forecastData, unit }) {
         <tbody>
           <tr>
             <td className="font-semibold">Forecast:</td>
-            <td>80</td>
+            <td></td>
           </tr>
           <tr>
             <td className="font-semibold">Region:</td>

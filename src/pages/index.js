@@ -38,7 +38,9 @@ export default function Home( { apiKey }) {
         />
       }
       {!state.weatherData && <p>Search for a city</p>}
-      <ForecastCard forecastData={state.forecastData} unit={state.unit}/>
+      {state.forecastData && 
+        <ForecastCard forecastData={state.forecastData} unit={state.unit}/>
+      }
     </main>
   )
 }
