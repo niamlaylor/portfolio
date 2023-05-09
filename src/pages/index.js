@@ -1,5 +1,5 @@
 import WeatherCard from "@/components/WeatherCard";
-import ForecastCard from "@/components/ForecastCard";
+import ForecastCard from "@/components/forecast/ForecastCard";
 import SearchForm from "@/components/SearchForm";
 import useApplicationData from "../hooks/useApplicationData";
 
