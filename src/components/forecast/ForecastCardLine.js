@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import ForecastLineHeader from "./ForecastLineHeader";
 
 export default function ForecastCardLine ({ forecastDay, children }) {
   useEffect(() => {
@@ -7,9 +6,12 @@ export default function ForecastCardLine ({ forecastDay, children }) {
   },[])
   return (
     <tr>
-      <ForecastLineHeader value={forecastDay.date}>
-          {children}
-      </ForecastLineHeader>
+      <td className="font-semibold">
+        {children}
+      </td>
+      <td>
+        {forecastDay.date}
+      </td>
     </tr>
   )
 }
