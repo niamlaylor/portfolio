@@ -8,7 +8,9 @@ export default function ForecastCard ({ forecastData, unit }) {
       <ForecastCardLine
         key={index}
         forecastDay={day}
-      />
+      >
+        Date:
+      </ForecastCardLine>
     )
   })
 
@@ -17,14 +19,6 @@ export default function ForecastCard ({ forecastData, unit }) {
       <table className="w-full">
         <tbody>
           {forecastCardLines}
-          <tr>
-            <td className="font-semibold">Region:</td>
-            <td>70</td>
-          </tr>
-          <tr>
-            <td className="font-semibold">Condition:</td>
-            <td>60</td>
-          </tr>
         </tbody>
       </table>
     </div>
