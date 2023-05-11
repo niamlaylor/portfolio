@@ -1,6 +1,7 @@
 import { useEffect } from "react";
+import { removeDecimals } from "@/utils/helpers";
 
-export default function ForecastCardLine ({ forecastDay, children }) {
+export default function ForecastCardLine ({ forecastDay, unit }) {
   useEffect(() => {
     console.log('HERE IS THE FORECAST DAY:', forecastDay)
   },[])
@@ -15,11 +16,12 @@ export default function ForecastCardLine ({ forecastDay, children }) {
         </td>
       </tr>
       <tr>
-        <td className="font-semibold">
+        <td>
           Average temp:
         </td>
         <td>
-          {forecastDay.day.avgtemp_c}
+          {unit === 'c' && `${removeDecimals(forecastDay.day.avgtemp_c)}°C`}
+          {unit === 'f' && `${removeDecimals(forecastDay.day.avgtemp_f)}°F`}
         </td>
       </tr>
     </>
