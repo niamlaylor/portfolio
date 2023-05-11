@@ -24,6 +24,14 @@ export default function ForecastCardLine ({ forecastDay, unit }) {
           {unit === 'f' && `${removeDecimals(forecastDay.day.avgtemp_f)}°F`}
         </td>
       </tr>
+      <tr>
+        <td>
+          Average humidity:
+        </td>
+        <td>
+          {`${forecastDay.day.avghumidity}%`}
+        </td>
+      </tr>
     </>
   )
 }
