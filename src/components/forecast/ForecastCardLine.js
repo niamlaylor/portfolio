@@ -5,13 +5,23 @@ export default function ForecastCardLine ({ forecastDay, children }) {
     console.log('HERE IS THE FORECAST DAY:', forecastDay)
   },[])
   return (
-    <tr>
-      <td className="font-semibold">
-        {children}
-      </td>
-      <td>
-        {forecastDay.date}
-      </td>
-    </tr>
+    <>
+      <tr>
+        <td className="font-semibold">
+          Date:
+        </td>
+        <td>
+          {forecastDay.date}
+        </td>
+      </tr>
+      <tr>
+        <td className="font-semibold">
+          Average temp:
+        </td>
+        <td>
+          {forecastDay.day.avgtemp_c}
+        </td>
+      </tr>
+    </>
   )
 }

@@ -8,6 +8,7 @@ export default function ForecastCard ({ forecastData, unit }) {
       <ForecastCardLine
         key={index}
         forecastDay={day}
+        unit={unit}
       >
         Date:
       </ForecastCardLine>
