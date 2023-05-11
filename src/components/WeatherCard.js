@@ -10,7 +10,7 @@ export default function WeatherCard ({ weatherData, handleToggle, handleExpand, 
   return (
     <div className="bg-white shadow-md rounded-lg p-4 w-80">
       <div className="flex items-center justify-center">
-        <h2 className="text-xl font-semibold">{dayOfWeek}</h2>
+        <h2 className="text-xl font-semibold mb-5">{dayOfWeek}</h2>
       </div>
       <div className="flex items-center justify-center">
         <img 
