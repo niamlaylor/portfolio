@@ -1,11 +1,17 @@
 import TemperatureDisplay from "./TemperatureDisplay";
 import WeatherCardButtons from "./WeatherCardButtons";
+import { getDayOfWeek } from "@/utils/helpers";
 
 export default function WeatherCard ({ weatherData, handleToggle, handleExpand, expanded, unit }) {
   const { location, current } = weatherData;
 
+  const dayOfWeek = getDayOfWeek(location.localtime);
+
   return (
     <div className="bg-white shadow-md rounded-lg p-4 w-80">
+      <div className="flex items-center justify-center">
+        <h2 className="text-xl font-semibold">{dayOfWeek}</h2>
+      </div>
       <div className="flex items-center justify-center">
         <img 
           className="h-16 w-16" 
