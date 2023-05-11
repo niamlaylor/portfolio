@@ -9,10 +9,7 @@ export default function ForecastCardLine ({ forecastDay, unit }) {
     <>
       <tr>
         <td className="font-semibold">
-          Date:
-        </td>
-        <td>
-          {forecastDay.date}
+        {forecastDay.date}
         </td>
       </tr>
       <tr>
