@@ -1,15 +1,20 @@
 import { useEffect } from "react";
 import { removeDecimals } from "@/utils/helpers";
+import { getDayOfWeek } from "@/utils/helpers";
 
 export default function ForecastCardLine ({ forecastDay, unit }) {
+
+  const dayOfWeek = getDayOfWeek(forecastDay.date);
+
   useEffect(() => {
     console.log('HERE IS THE FORECAST DAY:', forecastDay)
   },[])
+
   return (
     <>
       <tr>
         <td className="font-semibold">
-        {forecastDay.date}
+        {dayOfWeek}
         </td>
       </tr>
       <tr>
