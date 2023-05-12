@@ -26,7 +26,8 @@ module.exports = {
       backgroundColor: {
         'custom-white': '#fbfbfd',
         'custom-gray': '#dbdbdb',
-        'custom-blue': ''
+        'custom-blue': '#23292f',
+        'copywriting-green': '#235347',
       },
       fontSize: {
         'h1': '10rem',
