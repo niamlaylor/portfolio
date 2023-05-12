@@ -32,7 +32,8 @@ module.exports = {
       fontSize: {
         'h1': '10rem',
         'h1-mobile': '3rem',
-        'h1-tablet': '6rem'
+        'h1-tablet': '6rem',
+        'h2-card': '3rem',
       },
     },
   },
