@@ -3,7 +3,7 @@ export default function NavSkillLink( { children } ) {
   return (
     <a 
       href={`${lowerCaseChild}`} 
-      className="text-black text-lg ml-1 mr-1 font-semibold"
+      className="text-black bg-custom-blue text-lg px-4 ml-1 mr-1 font-semibold border border-custom-blue rounded-md"
     >
       {children}
     </a>

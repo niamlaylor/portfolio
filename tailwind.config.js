@@ -25,6 +25,7 @@ module.exports = {
     extend: {
       backgroundColor: {
         'custom-white': '#fbfbfd',
+        'custom-blue': '#dbdbdb'
       },
       fontSize: {
         'h1': '10rem',

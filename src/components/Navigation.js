@@ -11,7 +11,7 @@ export default function Navigation() {
         <NavSkillLink>Copywriting</NavSkillLink>
         <NavSkillLink>Development</NavSkillLink>
       </div>
-      <div className="container mx-auto mt-3 flex items-center justify-center">
+      <div className="container mx-auto mt-4 flex items-center justify-center">
         <NavContactLink>Github</NavContactLink>
         <NavContactLink>LinkedIn</NavContactLink>
       </div>
