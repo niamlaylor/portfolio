@@ -1,5 +1,5 @@
 export default function NavContactLink( { children } ) {
-  const linkClass = "text-black text-sm ml-1 mr-1 font-semibold";
+  const linkClass = "text-black text-sm ml-1 mr-2 font-semibold";
   return (
     <>
       { children === 'Github' && <>
