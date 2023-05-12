@@ -3,6 +3,11 @@ export default function NavContactLink( { children } ) {
   return (
     <>
       { children === 'Github' && <>
+        <img
+          src={'https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/github-mark.png'}
+          width={20}
+          height={20}
+        />
         <a 
           href="https://github.com/niamlaylor" 
           target="_blank" 
