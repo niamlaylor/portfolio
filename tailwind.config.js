@@ -12,6 +12,9 @@ module.exports = {
       },
       fontSize: {
         'h1': '3rem'
+      },
+      letterSpacing: {
+        'nav-wide': '0.2em'
       }
     },
   },
