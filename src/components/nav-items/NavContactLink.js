@@ -36,7 +36,7 @@ export default function NavContactLink( { children } ) {
       { children === 'Medium' && 
       <>
         <img
-          src={'https://miro.medium.com/v2/resize:fill:176:176/1*sHhtYhaCe2Uc3IU0IgKwIQ.png'}
+          src={'https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/medium-logo.png'}
           width={20}
           height={20}
           className="rounded-full"
