@@ -27,14 +27,21 @@ module.exports = {
         'custom-white': '#fbfbfd',
         'custom-gray': '#dbdbdb',
         'custom-blue': '#23292f',
-        'copywriting-green': '#235347',
+        'copywriting-green': '#4f7b70',
+        'custom-gold': '#d4AF37',
       },
       fontSize: {
         'h1': '10rem',
         'h1-mobile': '3rem',
         'h1-tablet': '6rem',
-        'h2-card': '3rem',
+        'h2-mobile': '1rem',
+        'h2-tablet': '2rem',
+        'h2-desktop': '3rem',
       },
+      colors: {
+        'copywriting-green': '#4f7b70',
+        'custom-gold': '#d4AF37',
+      }
     },
   },
   plugins: [],
