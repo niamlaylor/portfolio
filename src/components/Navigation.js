@@ -14,6 +14,7 @@ export default function Navigation() {
       <div className="container mx-auto mt-4 flex items-center justify-center">
         <NavContactLink>Github</NavContactLink>
         <NavContactLink>LinkedIn</NavContactLink>
+        <NavContactLink>Medium</NavContactLink>
       </div>
     </nav>
   )

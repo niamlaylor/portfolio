@@ -33,6 +33,23 @@ export default function NavContactLink( { children } ) {
         </a>
       </>
       }
+      { children === 'Medium' && 
+      <>
+        <img
+          src={'https://miro.medium.com/v2/resize:fill:176:176/1*sHhtYhaCe2Uc3IU0IgKwIQ.png'}
+          width={20}
+          height={20}
+          className="rounded-full"
+        />
+        <a 
+          href="https://medium.com/@liamnaylorr" 
+          target="_blank" 
+          className={linkClass}
+        >
+          {children}
+        </a>
+      </>
+      }
     </>
   )
 };
