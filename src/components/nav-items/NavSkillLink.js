@@ -3,7 +3,7 @@ export default function NavSkillLink( { children } ) {
   return (
     <a 
       href={`${lowerCaseChild}`} 
-      className="text-black bg-custom-gray hover: text-lg px-4 ml-1 mr-1 font-semibold border border-custom-blue rounded-md"
+      className="text-black bg-custom-gray text-lg px-4 ml-1 mr-1 font-semibold border border-custom-blue rounded-md hover:bg-blue-500"
     >
       {children}
     </a>
