@@ -17,13 +17,21 @@ export default function NavContactLink( { children } ) {
         </a>
       </>
       }
-      { children === 'LinkedIn' && <a 
-        href="https://www.linkedin.com/in/liamnnaylor/" 
-        target="_blank" 
-        className={linkClass}
-      >
-        {children}
-      </a>
+      { children === 'LinkedIn' && 
+      <>
+        <img
+          src={'https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/linkedin-web.png'}
+          width={20}
+          height={20}
+        />
+        <a 
+          href="https://www.linkedin.com/in/liamnnaylor/" 
+          target="_blank" 
+          className={linkClass}
+        >
+          {children}
+        </a>
+      </>
       }
     </>
   )
