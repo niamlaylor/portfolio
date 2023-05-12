@@ -26,7 +26,7 @@ module.exports = {
       backgroundColor: {
         'custom-white': '#fbfbfd',
         'custom-gray': '#dbdbdb',
-        'custom-hover-gray': 'bdbdbd'
+        'custom-blue': ''
       },
       fontSize: {
         'h1': '10rem',
