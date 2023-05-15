@@ -15,7 +15,7 @@ export default function HomeCardPanel({ children, bgColor, textColor, type }) {
       description: "React application to allow applicants to book, change or cancel job interviews with employers.",
       stack: "React, Node.js, Storybook, Jest, Vypress, CircleCI, Railway",
       date: "February 2023",
-      image: "https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/bc-ferries-app-WEB.jpg"
+      image: "https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/scheduler-1000x390.jpg"
     },
   ];
 
