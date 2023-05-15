@@ -17,12 +17,6 @@ export default function HomeCardPanel({ children, bgColor, textColor, type }) {
       date: "February 2023",
       image: "https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/bc-ferries-app-WEB.jpg"
     },
-    { 
-      name: "ListEasy",
-      description: "Smart to-do list web app that automatically sorts tasks into categories based on relevancy with movie, book, restaurant and product results.",
-      stack: "Node.js, EJS, jQuery, PostgreSQL, Google Natural Language AI",
-      date: "January 2023"
-    },
   ];
 
   const copyPortfolio = [
@@ -44,12 +38,10 @@ export default function HomeCardPanel({ children, bgColor, textColor, type }) {
 
   const dev = devPortfolio.map((project, index) => {
     return (
-      <li
+      <HomeCardPanelItem
         key={index}
-        class="p-10"
-      >
-        {project.name}
-      </li>
+        project={project}
+      />
     );
   });
 
