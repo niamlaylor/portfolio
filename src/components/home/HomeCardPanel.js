@@ -1,12 +1,12 @@
 export default function HomeCardPanel({ children, bgColor, textColor, type }) {
-  const listItems = ["A", "B"];
+  const listItems = ["A", "B", "C"];
   const listArray = listItems.map((item, index) => {
     return (
       <li
         key={index}
         className={`flex items-center justify-center w-full p-10`}
       >
-        BC Ferries app
+        {item}
       </li>
     )
   })
