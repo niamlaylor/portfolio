@@ -7,13 +7,15 @@ export default function HomeCardPanel({ children, bgColor, textColor, type }) {
       name: "Sifter",
       description: "A recipe parser that creates and saves a consistently formatted recipe from a food blog or recipe site.",
       stack: "Next.js, React, Node.js, Prisma, Supabase",
-      date: "April 2023"
+      date: "April 2023",
+      image: "https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/bc-ferries-vessel-WEB.jpg"
     },
     { 
       name: "Scheduler",
       description: "React application to allow applicants to book, change or cancel job interviews with employers.",
       stack: "React, Node.js, Storybook, Jest, Vypress, CircleCI, Railway",
-      date: "February 2023"
+      date: "February 2023",
+      image: "https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/bc-ferries-app-WEB.jpg"
     },
     { 
       name: "ListEasy",
