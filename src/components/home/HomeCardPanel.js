@@ -48,6 +48,7 @@ export default function HomeCardPanel({ children, bgColor, textColor, type }) {
     return (
       <li
         key={index}
+        class="p-10"
       >
         {project.name}
       </li>
@@ -58,6 +59,7 @@ export default function HomeCardPanel({ children, bgColor, textColor, type }) {
     return (
       <li
         key={index}
+        class="p-10"
       >
         {project.name}
       </li>
