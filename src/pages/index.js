@@ -14,7 +14,6 @@ export default function Home() {
   return (
     <main>
       <HomeIntro 
-        hovered={state.hovered} 
         handleHover={handleHover}
         handleMouseLeave={handleMouseLeave}
         getImageSrc={getImageSrc}

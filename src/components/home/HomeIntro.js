@@ -1,18 +1,18 @@
 import { useState } from "react";
 
-export default function HomeIntro({ hovered, handleHover, handleMouseLeave, getImageSrc }) {
+export default function HomeIntro({ handleHover, handleMouseLeave, getImageSrc }) {
   
   return (
     <section className="flex sm:flex-col md:flex-row lg:flex-row items-center justify-center">
-      <p>Hi, I'm Liam.</p>
+      <h2 className="m-5">Hi, I'm Liam.</h2>
       <img
         src={getImageSrc()}
-        height={275}
-        width={275}
+        height={300}
+        width={300}
         onMouseEnter={handleHover}
         onMouseLeave={handleMouseLeave}
         loading="lazy"
-        className="mr-1"
+        className="m-5"
       />
     </section>
   );
