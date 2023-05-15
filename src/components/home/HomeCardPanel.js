@@ -1,4 +1,4 @@
-export default function HomeCardPanel({ children, bgColor, textColor, type }) {
+export default function HomeCardPanel({ children, bgColor, textColor, type, devPortfolio }) {
   const listItems = ["A", "B", "C"];
   const listArray = listItems.map((item, index) => {
     return (
