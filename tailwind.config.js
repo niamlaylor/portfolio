@@ -37,6 +37,9 @@ module.exports = {
         'h2-mobile': '1.5rem',
         'h2-tablet': '2rem',
         'h2-desktop': '3rem',
+        'h3-mobile': '1rem',
+        'h3-tablet': '1.5rem',
+        'h3-desktop': '2.5rem',
       },
       colors: {
         'copywriting-green': '#4f7b70',
