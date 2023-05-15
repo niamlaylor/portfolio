@@ -9,7 +9,6 @@ export default function Home() {
     handleHover,
     handleMouseLeave,
     getImageSrc,
-    devPortfolio
   } = useApplicationData();
 
   return (
@@ -19,7 +18,7 @@ export default function Home() {
         handleMouseLeave={handleMouseLeave}
         getImageSrc={getImageSrc}
       />
-      <HomeCard dev={devPortfolio}/>
+      <HomeCard />
     </main>
   )
 }
