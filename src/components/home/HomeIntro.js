@@ -24,11 +24,12 @@ export default function HomeIntro() {
       <p>Hi, I'm Liam.</p>
       <img
         src={getImageSrc()}
-        height={200}
-        width={200}
+        height={300}
+        width={300}
         onMouseEnter={handleHover}
         onMouseLeave={handleMouseLeave}
         loading="lazy"
+        className="rounded-full mr-1"
       />
     </section>
   );
