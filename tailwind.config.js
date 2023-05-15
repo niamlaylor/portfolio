@@ -41,7 +41,7 @@ module.exports = {
       colors: {
         'copywriting-green': '#4f7b70',
         'custom-gold': '#d4AF37',
-      }
+      },
     },
   },
   plugins: [],
