@@ -9,7 +9,7 @@ export default function HomeCardPanelItem({ project }) {
         alt={project.name}
         className="object-cover"
         style={{
-          clipPath: 'inset(20% 0% 20% 0%)', // Adjust the inset values as needed
+          clipPath: 'inset(-5% -5% -5% -5%)',
         }}
       />
     </li>
