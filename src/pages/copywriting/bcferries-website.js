@@ -8,7 +8,7 @@ export default function CopywritingInfo() {
           <div class="lg:pr-4">
             <div class="lg:max-w-lg">
               <p class="text-base font-semibold leading-7 text-indigo-600">Copywriting</p>
-              <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A better workflow</h1>
+              <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Clear and concise</h1>
               <p class="mt-6 text-xl leading-8 text-gray-700">Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at vitae feugiat egestas.</p>
             </div>
           </div>
