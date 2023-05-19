@@ -19,8 +19,8 @@ export default function CopywritingInfo() {
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
-              <p className="mb-2">Our team led a complete redesign of the BC Ferries website from the ground up, including a reimagined booking experience, better organized web content and schedules, an "Expedia-like" travel package booking service for BC Ferries Vacations, and more.</p>
-              <p>The original website had an out-of-date design that was pain to use on a mobile device, so our strategy was to create a crisp and concise layout with a mobile-first, responsive layout.</p>
+              <p className="mb-2">Our team led a complete redesign of the BC Ferries website from the ground up, including a reimagined booking experience, better organized web content, an "Expedia-like" travel package booking service for BC Ferries Vacations, and more.</p>
+              <p>The original website had an out-of-date design that was a pain to use on a mobile device, so our strategy was to create a crisp and concise layout with a mobile-first, responsive layout.</p>
               <h2 className="mt-8"><strong className="font-semibold text-gray-900">My role:</strong></h2>
               <ul role="list" className="mt-4 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
@@ -40,12 +40,13 @@ export default function CopywritingInfo() {
                     <path d="M4.632 3.533A2 2 0 016.577 2h6.846a2 2 0 011.945 1.533l1.976 8.234A3.489 3.489 0 0016 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234z" />
                     <path fillRule="evenodd" d="M4 13a2 2 0 100 4h12a2 2 0 100-4H4zm11.24 2a.75.75 0 01.75-.75H16a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75h-.01a.75.75 0 01-.75-.75V15zm-2.25-.75a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 00.75-.75V15a.75.75 0 00-.75-.75h-.01z" clipRule="evenodd" />
                   </svg>
-                  <span><strong className="font-semibold text-gray-900">UI/UX design:</strong> Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</span>
+                  <span><strong className="font-semibold text-gray-900">Ensure consistency:</strong> Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</span>
                 </li>
               </ul>
               <p className="mt-8">Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.</p>
-              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">No server? No problem.</h2>
-              <p className="mt-6">Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh. Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed tellus mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam turpis ipsum eu a sed convallis diam.</p>
+              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Reimagined voice and tone</h2>
+              <p className="mt-6 mb-2">For years, BC Ferries was known for its highly formal and corporate tone when communicating with customers. As a copywriter leading content development on the new website, my role was to champion a more human and relatable voice and tone company-wide, and ensure consistency across all of our digital touchpoints.</p>
+              <p>BC Ferries is also known for having highly complex business rules and operational procedures. My biggest challenge on this project was fully understanding these complexities and translating it into clear and concise content for our wide variety of customers.</p>
             </div>
           </div>
         </div>
