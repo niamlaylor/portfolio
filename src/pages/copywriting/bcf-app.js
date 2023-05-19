@@ -8,13 +8,13 @@ export default function BcfWebsite() {
           <div className="lg:pr-4">
             <div className="lg:max-w-lg">
               <p className="text-base font-semibold leading-7 text-blue-500">BC Ferries</p>
-              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Website content design and UX writing</h1>
+              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">UX writing for an iOS/Android travel app</h1>
               <p className="mt-6 text-xl leading-8 text-gray-700">Originally launched in 2006, the BC Ferries website is a critical tool for millions of British Columbians and tourists to book, plan and manage their ferry travel.</p>
             </div>
           </div>
         </div>
         <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-          <img className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[50rem]" src="https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/bc-ferries-inside-passage-center-WEB.jpg" alt="" />
+          <img className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[30rem] md:w-[40rem]" src="https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/bcf-app-centre-WEB.jpg" alt="" />
         </div>
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
