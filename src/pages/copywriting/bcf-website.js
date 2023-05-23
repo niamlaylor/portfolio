@@ -27,13 +27,13 @@ export default function BcfWebsite() {
                   <p className="mt-1 h-5 w-5 flex-none text-lg text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     ✅
                   </p>
-                  <span><strong className="font-semibold text-gray-900">Content design & SEO:</strong> Led a complete revamp of our corporate voice and tone and condensed more than 4300 pages on our old website down to ~400 concise and SEO-friendly pages.</span>
+                  <span><strong className="font-semibold text-gray-900">Content design & SEO:</strong> I led a complete revamp of our corporate voice and tone and condensed more than 4300 pages on our old website down to ~400 concise and SEO-friendly pages.</span>
                 </li>
                 <li className="flex gap-x-3">
                   <p className="mt-1 h-5 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     ✅
                   </p>
-                  <span><strong className="font-semibold text-gray-900">UX writing:</strong> Produced data-driven microcopy, transactional emails, promotional content and more, to improve user engagement and streamline the user journey. My involvement played a key role in achieving more than a 30% increase in customer satisfaction scores on our website in the year following launch.</span>
+                  <span><strong className="font-semibold text-gray-900">UX writing:</strong> I wrote data-driven microcopy, transactional emails, promotional content and more, to improve user engagement and streamline the user journey. My involvement played a key role in achieving more than a 30% increase in customer satisfaction scores on our website in the year following launch.</span>
                 </li>
                 <li className="flex gap-x-3">
                   <p className="mt-1 h-5 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
