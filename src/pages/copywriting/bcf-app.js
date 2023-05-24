@@ -9,7 +9,7 @@ export default function BcfWebsite() {
             <div className="lg:max-w-lg">
               <p className="text-base font-semibold leading-7 text-blue-500">BC Ferries</p>
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">UX writing for an iOS/Android travel app</h1>
-              <p className="mt-6 text-xl leading-8 text-gray-700">Launched in 2023, the BC Ferries app is designed for speed. With reimagined bookings flows and a host of new features, this tool gives users faster access to </p>
+              <p className="mt-6 text-xl leading-8 text-gray-700">Launched in 2023, the BC Ferries app was designed for a faster booking experience.</p>
             </div>
           </div>
         </div>
@@ -19,8 +19,8 @@ export default function BcfWebsite() {
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
-              <p className="mb-2">Our team led a complete redesign of the BC Ferries website from the ground up, including a reimagined booking experience, better organized web content, an "Expedia-like" travel package booking service for BC Ferries Vacations, and more.</p>
-              <p>The original website had an out-of-date design that was a pain to use on a mobile device, so our strategy was to create a crisp and concise layout with a mobile-first, responsive layout. The new website launched in the fall of 2020 and has processed revenues in the billions since.</p>
+              <p className="mb-2">With overwhelming customer feedback calling for a more efficient way to book sailings and check travel information, our team designed a streamlined mobile app that allows users to preset their travel details so they don't have to re-enter it everytime they book.</p>
+              <p>The app also features redesigned layouts for schedules and current conditions - two pillars of the BC Ferries website thay customers have used for decades.</p>
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">My role</h2>
               <ul role="list" className="mt-6 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
