@@ -20,26 +20,26 @@ export default function BcfWebsite() {
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
               <p className="mb-2">With overwhelming customer feedback calling for a more efficient way to book sailings and check travel information, our team designed a streamlined mobile app that allows users to preset their travel details so they don't have to re-enter it everytime they book.</p>
-              <p>The app also features redesigned layouts for schedules and current conditions - two pillars of the BC Ferries website thay customers have used for decades.</p>
+              <p>The app also features redesigned layouts for schedules and current conditions - two pillars of the BC Ferries website that customers have used for decades.</p>
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">My role</h2>
               <ul role="list" className="mt-6 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
                   <p className="mt-1 h-5 w-5 flex-none text-lg text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     ✅
                   </p>
-                  <span><strong className="font-semibold text-gray-900">Content design & SEO:</strong> Led a complete revamp of our corporate voice and tone and condensed more than 4300 pages on our old website down to ~400 concise and SEO-friendly pages.</span>
+                  <span><strong className="font-semibold text-gray-900">UX writing:</strong> Produced microcopy across the app in collaboration with UI/UX designers, including the booking flow, schedules, current conditions and more.</span>
                 </li>
                 <li className="flex gap-x-3">
                   <p className="mt-1 h-5 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     ✅
                   </p>
-                  <span><strong className="font-semibold text-gray-900">UX writing:</strong> Produced data-driven microcopy, transactional emails, promotional content and more, to improve user engagement and streamline the user journey. My involvement played a key role in achieving more than a 30% increase in customer satisfaction scores on our website in the year following launch.</span>
+                  <span><strong className="font-semibold text-gray-900">Writing promo content:</strong> Wrote and managed reviews of all web promotional content as well as app store creative.</span>
                 </li>
                 <li className="flex gap-x-3">
                   <p className="mt-1 h-5 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     ✅
                   </p>
-                  <span><strong className="font-semibold text-gray-900">Ensure consistency:</strong> I focused on maintaining a coherent and consistent brand voice across all website content. My aim was to ensure a seamless and engaging customer experience that builds trust and fosters customer loyalty.</span>
+                  <span><strong className="font-semibold text-gray-900">User testing:</strong> I focused on maintaining a coherent and consistent brand voice across all website content. My aim was to ensure a seamless and engaging customer experience that builds trust and fosters customer loyalty.</span>
                 </li>
               </ul>
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Reimagined voice and tone</h2>
