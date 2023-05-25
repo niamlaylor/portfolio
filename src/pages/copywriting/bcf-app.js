@@ -33,13 +33,13 @@ export default function BcfWebsite() {
                   <p className="mt-1 h-5 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     ✅
                   </p>
-                  <span><strong className="font-semibold text-gray-900">Writing promo content:</strong> Wrote and managed reviews of all web promotional content as well as app store creative.</span>
+                  <span><strong className="font-semibold text-gray-900">Writing promo content:</strong> Wrote and managed reviews of all web promotional content and app store creative.</span>
                 </li>
                 <li className="flex gap-x-3">
                   <p className="mt-1 h-5 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     ✅
                   </p>
-                  <span><strong className="font-semibold text-gray-900">User testing:</strong> I focused on maintaining a coherent and consistent brand voice across all website content. My aim was to ensure a seamless and engaging customer experience that builds trust and fosters customer loyalty.</span>
+                  <span><strong className="font-semibold text-gray-900">User testing:</strong> Led user device testing and performing content updates in response to beta release feedback.</span>
                 </li>
               </ul>
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Reimagined voice and tone</h2>
