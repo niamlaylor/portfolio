@@ -1,3 +1,4 @@
+import rss from '@/pages/api/rss';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 
@@ -9,7 +10,11 @@ export default function MediumCarousel({ feed }) {
     axios.get('/api/rss')
     .then((mediumData) => {
       setRssData(mediumData);
-      console.log('Component log: ', mediumData);
+      console.log('Component log: ', mediumData.data);
     })
   }, []);
-}
+
+  return (
+    <p>Yoooooo</p>
+  )
+};
