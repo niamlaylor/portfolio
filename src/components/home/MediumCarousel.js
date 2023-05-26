@@ -1,17 +1,15 @@
-import { fetchRssFeed } from '@/utils/helpers';
-import { useEffect } from 'react';
+import axios from 'axios';
+import { useEffect, useState } from 'react';
 
-export async function getServerSideProps() {
-  const feed = await fetchRssFeed();
-  return {
-    props: {
-      feed,
-    },
-  };
-};
 
 export default function MediumCarousel({ feed }) {
+  const [rssData, setRssData] = useState([]);
+
   useEffect(() => {
-    console.log(feed)
-  }, [])
+    axios.get('/api/rss')
+    .then((mediumData) => {
+      setRssData(mediumData);
+      console.log('Component log: ', mediumData);
+    })
+  }, []);
 }
