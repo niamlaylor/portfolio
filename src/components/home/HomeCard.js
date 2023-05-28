@@ -3,7 +3,7 @@ import MediumCarousel from "./MediumCarousel";
 
 export default function HomeCard() {
   return(
-    <section className="flex sm:flex-col md:flex-row lg:flex-row">
+    <section className="flex sm:flex-col md:flex-col lg:flex-col">
       <HomeCardPanel bgColor={"bg-black"} textColor={"text-white"} type={"dev"} >Development</HomeCardPanel>
       <HomeCardPanel bgColor={"bg-black"} textColor={"text-white"} type={"copy"}>Copywriting</HomeCardPanel>
       <MediumCarousel />

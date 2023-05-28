@@ -13,8 +13,4 @@ export default function MediumCarousel({ feed }) {
       console.log('Component log: ', mediumData.data);
     })
   }, []);
-
-  return (
-    <p>Yoooooo</p>
-  )
 };
