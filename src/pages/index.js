@@ -1,7 +1,6 @@
 import HomeCard from "@/components/home/HomeCard";
 import HomeIntro from "@/components/home/HomeIntro";
 import useApplicationData from "../hooks/useApplicationData";
-import Carousel from "@/components/home/Carousel";
 
 export default function Home() {
 
