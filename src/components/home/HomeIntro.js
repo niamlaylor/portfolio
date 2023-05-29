@@ -3,8 +3,7 @@ import { useState } from "react";
 export default function HomeIntro({ handleHover, handleMouseLeave, getImageSrc }) {
   
   return (
-    <section className="flex sm:flex-col md:flex-row lg:flex-row items-center justify-center mt-20 mb-20">
-      <h2>Hi, I'm Liam.</h2>
+    <section className="flex flex-col items-center justify-center mt-20 mb-20">
       <img
         src={getImageSrc()}
         height={300}
@@ -12,8 +11,10 @@ export default function HomeIntro({ handleHover, handleMouseLeave, getImageSrc }
         onMouseEnter={handleHover}
         onMouseLeave={handleMouseLeave}
         loading="lazy"
-        className="m-5"
+        className="m-5 rounded-full"
       />
+      <h3 className="text-md mt-5">LIAM NAYLOR</h3>
+      <h2 className="w-full text-h1-mobile text-center">Full-Stack Developer</h2>
     </section>
   );
 };
