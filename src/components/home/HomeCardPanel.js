@@ -55,7 +55,7 @@ export default function HomeCardPanel({ children, bgColor, textColor, type }) {
   });
 
   return (
-    <article className={`flex flex-col items-center justify-start w-1/2 ${bgColor} border-8 border-white mb-5`}>
+    <article className={`flex flex-col items-center justify-start lg:w-1/2 md:w-full sm:w-full ${bgColor} border-8 border-white mb-5`}>
       <h1 className={`${textColor} hover:text-custom-gold sm:text-h2-mobile md:text-h2-tablet lg:text-h2-desktop mt-10 font-semibold`}>{children}</h1>
       <div className="flex-1 w-full">
         <ul className={`flex flex-col items-center mt-10 ${type === 'copy' ? 'divide-x' : ''}`}>
