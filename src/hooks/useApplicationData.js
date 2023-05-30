@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 export default function useApplicationData() {
 
   const [state, setState] = useState({
-    hovered: false
+    hovered: false,
   });
 
   const setIsHovered = hovered => setState({ ...state, hovered });

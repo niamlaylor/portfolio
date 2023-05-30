@@ -1,4 +1,4 @@
-import { useState } from "react";
+import Languages from "../home/languages/Languages";
 
 export default function HomeIntro({ handleHover, handleMouseLeave, getImageSrc }) {
   
@@ -15,6 +15,7 @@ export default function HomeIntro({ handleHover, handleMouseLeave, getImageSrc }
       />
       <h3 className="text-base font-semibold leading-7 text-blue-500">Hi, I'm Liam.</h3>
       <h2 className="w-full mt-2 text-3xl text-center font-bold tracking-tight text-gray-900 sm:text-4xl">Full-Stack Developer</h2>
+      <Languages />
     </section>
   );
 };
