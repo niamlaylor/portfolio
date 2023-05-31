@@ -12,7 +12,7 @@ export default function Home() {
   } = useApplicationData();
 
   return (
-    <main>
+    <main className="w-full">
       <HomeIntro 
         handleHover={handleHover}
         handleMouseLeave={handleMouseLeave}
