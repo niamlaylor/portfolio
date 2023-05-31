@@ -1,4 +1,5 @@
 import HomeIntro from "@/components/home/HomeIntro";
+import HomeProjects from "@/components/home/projects/HomeProjects";
 import useApplicationData from "../hooks/useApplicationData";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         handleMouseLeave={handleMouseLeave}
         getImageSrc={getImageSrc}
       />
+      <HomeProjects />
     </main>
   )
 }
