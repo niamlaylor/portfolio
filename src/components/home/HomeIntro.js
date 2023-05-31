@@ -1,4 +1,5 @@
 import Languages from "../home/languages/Languages";
+import Heading2 from "../headers/h2";
 
 export default function HomeIntro({ handleHover, handleMouseLeave, getImageSrc }) {
   
@@ -14,7 +15,8 @@ export default function HomeIntro({ handleHover, handleMouseLeave, getImageSrc }
         className="m-5 rounded-full"
       />
       <h3 className="text-base font-semibold leading-7 text-blue-500">Hi, I'm Liam.</h3>
-      <h2 className="w-full mt-2 text-3xl text-center font-bold tracking-tight text-gray-900 sm:text-4xl">Full-Stack Developer</h2>
+      <Heading2>Full-Stack Developer</Heading2>
+      <p>From Canmore, AB</p>
       <Languages />
     </section>
   );
