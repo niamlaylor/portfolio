@@ -1,5 +1,6 @@
 import Languages from "../home/languages/Languages";
 import Heading2 from "../headers/h2";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function HomeIntro({ handleHover, handleMouseLeave, getImageSrc }) {
   
@@ -15,8 +16,8 @@ export default function HomeIntro({ handleHover, handleMouseLeave, getImageSrc }
         className="m-5 rounded-full"
       />
       <h3 className="text-base font-semibold leading-7 text-blue-500">Hi, I'm Liam.</h3>
-      <Heading2>Full-Stack Developer</Heading2>
-      <p>From Canmore, AB</p>
+      <Heading2>Full-Stack Developer  |  Copywriter</Heading2>
+      <FontAwesomeIcon icon="fa-solid fa-code" size="4x"/>
       <Languages />
     </section>
   );
