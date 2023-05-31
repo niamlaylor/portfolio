@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.experience-col:hover {
+  color: #3B82F6;
+}
