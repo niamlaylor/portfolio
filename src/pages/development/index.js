@@ -1,14 +1,40 @@
+import RepoCTA from "@/components/buttons/RepoCTA";
+
 const links = [
-  { name: 'Portfolio site', href: '#' },
-  { name: 'Sifter', href: '#' },
-  { name: 'Scheduler', href: '#' },
-  { name: 'ListEasy', href: '#' },
+  { name: 'View Github', href: 'https://github.com/niamlaylor' },
+  { name: 'Connect on LinkedIn', href: '#' },
 ]
 const stats = [
-  { name: 'See how I made my portfolio with Next.js, React and more.', value: 'Portfolio site', date: 'Jun 2023' },
-  { name: 'A recipe parser that creates a formatted recipe from a recipe site.', value: 'Sifter', date: 'Apr 2023' },
-  { name: 'React application to allow applicants to book and manage job interviews.', value: 'Scheduler', date: 'Feb 2023' },
-  { name: 'Smart to-do list web app that automatically sorts tasks with AI.', value: 'ListEasy', date: 'Jan 2023' },
+  { 
+    name: 'See how I made my portfolio with Next.js, React and more.', 
+    value: 'Portfolio site', 
+    date: 'Jun 2023', 
+    repo:'https://github.com/niamlaylor/portfolio' 
+  },
+  { 
+    name: 'A recipe parser that creates a formatted recipe from a recipe site.', 
+    value: 'Sifter', 
+    date: 'Apr 2023', 
+    repo:'https://github.com/niamlaylor/recipes-next' 
+  },
+  { 
+    name: 'React application to allow applicants to book and manage job interviews.', 
+    value: 'Scheduler', 
+    date: 'Feb 2023', 
+    repo:'https://github.com/niamlaylor/scheduler' 
+  },
+  { 
+    name: 'Smart to-do list web app that automatically sorts tasks with AI.', 
+    value: 'ListEasy', 
+    date: 'Jan 2023', 
+    repo:'https://github.com/niamlaylor/smart-todo-list' 
+  },
+  { 
+    name: 'A JavaScript testing assertion library published on npm.', 
+    value: 'Lotide', 
+    date: 'Oct 2022', 
+    repo:'https://github.com/niamlaylor/lotide' 
+  },
 ]
 
 export default function DevelopmentLanding() {
@@ -18,8 +44,7 @@ export default function DevelopmentLanding() {
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-4xl font-bold tracking-tight sm:text-6xl">Development</h2>
           <p className="mt-6 text-lg leading-8">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-            fugiat veniam occaecat fugiat aliqua.
+            Below are some of my recent projects built using
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
@@ -30,11 +55,13 @@ export default function DevelopmentLanding() {
               </a>
             ))}
           </div>
-          <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
+          <dl className="mt-4 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-3">
             {stats.map((stat) => (
               <div key={stat.name} className="flex flex-col-reverse">
+                <RepoCTA url={stat.repo}>View on Github</RepoCTA>
                 <dt className="text-base leading-7 text-gray-800">{stat.name}</dt>
-                <dd className="text-2xl font-bold leading-9 tracking-tight text-gray-800">{stat.value}</dd>
+                <dd className="text-2xl font-bold leading-9 tracking-tight text-gray-900">{stat.value}</dd>
+                <dd className="text-sm font-bold leading-9 tracking-tight text-blue-500">{stat.date}</dd>
               </div>
             ))}
           </dl>

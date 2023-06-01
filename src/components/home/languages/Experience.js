@@ -1,8 +1,5 @@
-import Heading2 from '@/components/headers/h2';
-import MainCTA from '@/components/buttons/MainCTA';
 import ExperienceCard from './ExperienceCard';
-import { faCode, faPenToSquare } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 export default function Experience() {
   return (
