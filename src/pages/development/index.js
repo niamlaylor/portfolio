@@ -1,14 +1,14 @@
 const links = [
-  { name: 'Open roles', href: '#' },
-  { name: 'Internship program', href: '#' },
-  { name: 'Our values', href: '#' },
-  { name: 'Meet our leadership', href: '#' },
+  { name: 'Portfolio site', href: '#' },
+  { name: 'Sifter', href: '#' },
+  { name: 'Scheduler', href: '#' },
+  { name: 'ListEasy', href: '#' },
 ]
 const stats = [
-  { name: 'Offices worldwide', value: '12' },
-  { name: 'Full-time colleagues', value: '300+' },
-  { name: 'Hours per week', value: '40' },
-  { name: 'Paid time off', value: 'Unlimited' },
+  { name: 'See how I made my portfolio with Next.js, React and more.', value: 'Portfolio site', date: 'Jun 2023' },
+  { name: 'A recipe parser that creates a formatted recipe from a recipe site.', value: 'Sifter', date: 'Apr 2023' },
+  { name: 'React application to allow applicants to book and manage job interviews.', value: 'Scheduler', date: 'Feb 2023' },
+  { name: 'Smart to-do list web app that automatically sorts tasks with AI.', value: 'ListEasy', date: 'Jan 2023' },
 ]
 
 export default function DevelopmentLanding() {

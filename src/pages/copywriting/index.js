@@ -1,7 +1,7 @@
 const links = [
-  { name: 'Open roles', href: '#' },
-  { name: 'Internship program', href: '#' },
-  { name: 'Our values', href: '#' },
+  { name: 'BC Ferries app', href: '#' },
+  { name: 'BC Ferries website', href: '#' },
+  { name: 'DeeBee\'s packaging', href: '#' },
   { name: 'Meet our leadership', href: '#' },
 ]
 const stats = [
