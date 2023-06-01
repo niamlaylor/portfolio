@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const links = [
   { name: 'View Github', href: 'https://github.com/niamlaylor' },
-  { name: 'Connect on LinkedIn', href: '#' },
+  { name: 'Connect on LinkedIn', href: 'https://www.linkedin.com/in/liamnnaylor/' },
 ]
 const stats = [
   { 
@@ -92,7 +92,7 @@ export default function DevelopmentLanding() {
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base text-gray-800 font-semibold leading-7 sm:grid-cols-2 md:flex lg:gap-x-10">
             {links.map((link) => (
-              <a key={link.name} href={link.href}>
+              <a key={link.name} target="_blank" href={link.href}>
                 {link.name} <span aria-hidden="true">&rarr;</span>
               </a>
             ))}
