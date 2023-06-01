@@ -1,4 +1,5 @@
 import RepoCTA from "@/components/buttons/RepoCTA";
+import Languages from "@/components/home/languages/Languages";
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -43,13 +44,13 @@ const skills = [
     type: 'Frameworks & libraries',
     list: [
       "Node.js",
+      "React",
       "Next.js",
       "Ajax",
       "Express",
-      "EJS",
       "jQuery",
       "Rails",
-      "Next-Auth"
+      "Tailwind"
     ]
   },
   { 
@@ -61,6 +62,7 @@ const skills = [
       "Prisma",
       "Supabase",
       "PostgreSQL",
+      "MySQL",
       "DevOps"
     ]
   },
@@ -106,35 +108,20 @@ export default function DevelopmentLanding() {
             ))}
           </dl>
         </div>
-
-        <div className="mx-auto mt-24 max-w-2xl lg:mx-0">
-          <h2 className="text-4xl font-bold tracking-tight sm:text-4xl">Tech Used</h2>
-          <p className="mt-6 text-lg leading-8">
-            Below are some of the technologies I have experience with:
-          </p>
-          <table className="mt-6 w-full">
-            <thead>
-              <tr>
-                <th className="py-2 font-semibold text-left">Technology Type</th>
-                <th className="py-2 font-semibold text-left">Skills</th>
-              </tr>
-            </thead>
-            <tbody>
-              {skills.map((skill) => (
-                <tr key={skill.type}>
-                  <td className="py-2 text-gray-900">{skill.type}</td>
-                  <td className="py-2">
-                    <ul className="list-disc pl-4">
-                      {skill.list.map((item) => (
-                        <li key={item} class={"list-none"}>{item}</li>
-                      ))}
-                    </ul>
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+        <div className="flex mt-16 justify-center relative isolate overflow-hidden w-full bg-white py-12 sm:py-24">
+          <Languages />
         </div>
+        <h2 className="text-4xl mt-20 font-bold tracking-tight sm:text-4xl">Tech Used</h2>
+        <dl className="grid grid-cols-1 gap-8 sm:mt-6 sm:grid-cols-1 lg:grid-cols-3">
+          {skills.map((skill) => (
+            <div key={skill.type} className="flex flex-col hover:bg-gray-200 p-5">
+              <dd className="text-2xl font-bold leading-9 tracking-tight text-gray-900">{skill.type}</dd>
+              {skill.list.map((library) => {
+                return <dt className="text-base leading-7 text-gray-800">{library}</dt>
+              })}
+            </div>
+          ))}
+        </dl>
       </div>
     </div>
   )
