@@ -18,7 +18,7 @@ export default function useApplicationData() {
 
   const getImageSrc = () => {
     if (state.hovered) {
-      return 'https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/liam-ella.jpg';
+      return 'https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/liam-ella-bw.jpg';
     } else {
       return 'https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/liamnaylor_bw.jpg';
     }
