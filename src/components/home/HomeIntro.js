@@ -8,12 +8,12 @@ export default function HomeIntro({ handleHover, handleMouseLeave, getImageSrc }
     <section className="flex flex-col items-center justify-center mt-20 mb-20">
       <img
         src={getImageSrc()}
-        height={300}
-        width={300}
+        height={400}
+        width={400}
         onMouseEnter={handleHover}
         onMouseLeave={handleMouseLeave}
         loading="lazy"
-        className="m-5 rounded-full"
+        className="m-8 rounded-full shadow-md m-2"
       />
       <Heading2>Hi, I'm Liam.</Heading2>
       <p className="mt-5">I'm a full-stack developer and digital copywriter.</p>
