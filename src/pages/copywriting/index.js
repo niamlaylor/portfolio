@@ -1,6 +1,6 @@
 const links = [
-  { name: 'BC Ferries app', href: '#' },
-  { name: 'BC Ferries website', href: '#' },
+  { name: 'BC Ferries app', href: '/copywriting/bcf-app' },
+  { name: 'BC Ferries website', href: '/copywriting/bcf-website' },
   { name: 'DeeBee\'s packaging', href: '#' },
   { name: 'Medium articles', href: '#' },
 ]
