@@ -2,7 +2,7 @@ const links = [
   { name: 'BC Ferries app', href: '#' },
   { name: 'BC Ferries website', href: '#' },
   { name: 'DeeBee\'s packaging', href: '#' },
-  { name: 'Meet our leadership', href: '#' },
+  { name: 'Medium articles', href: '#' },
 ]
 const stats = [
   { name: 'Offices worldwide', value: '12' },
