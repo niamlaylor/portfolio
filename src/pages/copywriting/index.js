@@ -10,7 +10,7 @@ const links = [
 const stats = [
   { name: 'BC Ferries app', value: 'BC Ferries app', date: 'Mar 2023' },
   { name: 'BC Ferries website', value: 'BC Ferries website', date: 'Mar 2023' },
-  { name: 'DeeBee\'s packaging', value: 'DeeBee\'s packaging', date: 'Mar 2023' },
+  { name: 'BCFV', value: 'BC Ferries Vacations', date: 'Mar 2023' },
   { name: 'Medium articles', value: 'Medium articles', date: 'Mar 2023' },
 ]
 
