@@ -8,8 +8,8 @@ const links = [
   { name: 'Medium articles', href: '#' },
 ]
 const stats = [
-  { name: 'BC Ferries app', value: 'BC Ferries app', date: 'Mar 2023' },
-  { name: 'BC Ferries website', value: 'BC Ferries website', date: 'Mar 2023' },
+  { name: 'UX writing for an iOS/Android travel app with six-figure downloads.', value: 'BC Ferries app', date: 'Sept 2023' },
+  { name: 'Content design and UX writing for a travel website with 1M+ users.', value: 'BC Ferries website', date: 'Mar 2023' },
   { name: 'BCFV', value: 'BC Ferries Vacations', date: 'Mar 2023' },
   { name: 'Medium articles', value: 'Medium articles', date: 'Mar 2023' },
 ]
@@ -19,7 +19,7 @@ export default function CopywritingLanding() {
     <div className="relative isolate overflow-hidden py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <FontAwesomeIcon icon={faPenToSquare} size="4x" className={"mb-5"}/>
+          <FontAwesomeIcon icon={faPenToSquare} size="4x" className={"mb-5 text-blue-500"}/>
           <h2 className="text-4xl font-bold tracking-tight sm:text-6xl">Copywriting</h2>
           <p className="mt-6 text-lg leading-8">
             Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
