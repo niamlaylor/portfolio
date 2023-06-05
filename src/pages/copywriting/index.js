@@ -9,10 +9,10 @@ const links = [
   { name: 'Medium articles', href: '#' },
 ]
 const stats = [
-  { name: 'UX writing for an iOS/Android travel app with six-figure downloads.', value: 'BC Ferries app', date: 'Apr 2023' },
-  { name: 'Recent thought leadership style articles on some of my favourite topics.', value: 'Medium articles', date: 'Apr 2023' },
-  { name: 'Content design and UX writing for a travel website with 1M+ users.', value: 'BC Ferries website', date: 'Sept 2020' },
-  { name: 'Writing travel content for an \"Expedia-like\" travel package platform.', value: 'BC Ferries Vacations', date: 'Sept 2020' },
+  { name: 'UX writing for an iOS/Android travel app with six-figure downloads.', value: 'BC Ferries app', date: 'Apr 2023', url: '/copywriting/bcf-app' },
+  { name: 'Recent thought leadership style articles on some of my favourite topics.', value: 'Medium articles', date: 'Apr 2023', url: 'https://medium.com/@liamnaylorr' },
+  { name: 'Content design and UX writing for a travel website with 1M+ users.', value: 'BC Ferries website', date: 'Sept 2020', url: '/copywriting/bcf-website' },
+  { name: 'Writing travel content for an \"Expedia-like\" travel package platform.', value: 'BC Ferries Vacations', date: 'Sept 2020', url: '/copywriting/bcfv' },
 ]
 
 export default function CopywritingLanding() {
@@ -38,7 +38,7 @@ export default function CopywritingLanding() {
           <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-14 sm:grid-cols-2 lg:grid-cols-4">
           {stats.map((stat) => (
               <div key={stat.name} className="flex flex-col-reverse hover:bg-gray-200 p-5">
-                <ProjectCTA>View project</ProjectCTA>
+                <ProjectCTA url={stat.url}>View project</ProjectCTA>
                 <dt className="text-base leading-7 text-gray-800">{stat.name}</dt>
                 <dd className="text-2xl font-bold leading-9 tracking-tight text-gray-900">{stat.value}</dd>
                 <dd className="text-sm font-bold leading-9 tracking-tight text-blue-500">{stat.date}</dd>
