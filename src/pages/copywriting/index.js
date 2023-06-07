@@ -23,8 +23,7 @@ export default function CopywritingLanding() {
           <FontAwesomeIcon icon={faPenToSquare} size="4x" className={"mb-5 text-blue-500"}/>
           <h2 className="text-4xl font-bold tracking-tight sm:text-6xl">Copywriting</h2>
           <p className="mt-6 text-lg leading-8">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-            fugiat veniam occaecat fugiat aliqua.
+            Check out my latest writing projects below:
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
