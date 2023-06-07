@@ -44,9 +44,9 @@ export default function BcfWebsite() {
                   <span><strong className="font-semibold text-gray-900">User testing:</strong> Led user device testing and performing content updates in response to beta release feedback.</span>
                 </li>
               </ul>
-              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Reimagined voice and tone</h2>
-              <p className="mt-6 mb-2">For years, BC Ferries was known for its rigid tone when communicating with customers. As a copywriter leading content development on the new website, my role was to champion a more human and relatable voice and tone company-wide, and ensure consistency across all of our digital touchpoints.</p>
-              <p>BC Ferries is also known for having highly complex business rules and operational procedures. My biggest challenge on this project was fully understanding these complexities and translating it into clear and concise content for our B2C and B2B customer base. My approach was to break down complicated procedures into simple, easy-to-understand steps. This resulted in a more accessible and user-friendly website that resonates with BC Ferries' diverse customer base.</p>
+              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">A faster and more efficient experience</h2>
+              <p className="mt-6 mb-2">Our goal with this app was to drastically reduce the number of user interactions required to make a booking and access travel information. Combined with the new travel preferences feature, Express Book allows users to book the next available sailing in a flash.</p>
+              <p></p>
             </div>
             <a href="https://www.bcferries.com" target="_blank" rel="noopener noreferrer" className="mt-12 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">
               Visit the BC Ferries website
