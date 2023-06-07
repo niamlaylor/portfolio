@@ -49,9 +49,8 @@ export default function BcfWebsite() {
               <p></p>
             </div>
             <a href="https://www.bcferries.com" target="_blank" rel="noopener noreferrer" className="mt-12 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">
-              Visit the BC Ferries website
+              Try out the app
             </a>
-            <p className="mt-3 text-gray-500 text-xs"><i>And maybe book a sailing or two... </i>⛴</p>
           </div>
         </div>
       </div>
