@@ -45,9 +45,9 @@ export default function BcfWebsite() {
                   <span><strong className="font-semibold text-gray-900">User testing:</strong> Led user device testing and performing content updates in response to beta release feedback.</span>
                 </li>
               </ul>
-              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">A faster and more efficient experience</h2>
+              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Clear, concise and helpful</h2>
               <p className="mt-6 mb-2">Our goal with this app was to drastically reduce the number of user interactions required to make a booking and access travel information. We also introduced a feature called Express Book, which allows users to instantly book the next available sailing instead of scanning the list of sailings for the day and picking the first one available.</p>
-              <p>Being mobile-only, my writing approach was to be extremely concise, while still being helpful to the user. The app introduced a brand new booking experience to customers who had been using the website to book travel for decades, so microcopy was key to help them learn the new interface.</p>
+              <p>As is best practice on mobile, my writing approach was to be extremely concise, while still being helpful to the user. The app introduced a brand new booking experience to customers who had been using the website to book travel for decades, so microcopy was key to help them learn the interface.</p>
             </div>
             <a href="https://www.bcferries.com" target="_blank" rel="noopener noreferrer" className="mt-12 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">
               Try out the app &nbsp; <FontAwesomeIcon icon={faUpRightFromSquare} size="xs" />
