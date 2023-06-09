@@ -11,8 +11,8 @@ export default function BcfWebsite() {
           <div className="lg:pr-4">
             <div className="lg:max-w-lg">
               <p className="text-base font-semibold leading-7 text-blue-500">BC Ferries Vacations</p>
-              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">UX writing for an iOS/Android travel app</h1>
-              <p className="mt-6 text-xl leading-8 text-gray-700">Launched in 2023, the BC Ferries app was designed for a faster booking experience.</p>
+              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Content design for a travel package booking site</h1>
+              <p className="mt-6 text-xl leading-8 text-gray-700">The new BC Ferries Vacations platform </p>
             </div>
           </div>
         </div>
