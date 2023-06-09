@@ -12,7 +12,7 @@ const stats = [
   { name: 'UX writing for an iOS/Android travel app with six-figure downloads.', value: 'BC Ferries app', date: 'Apr 2023', url: '/copywriting/bcf-app', cta: 'View the app' },
   { name: 'Recent thought leadership style articles on some of my favourite topics.', value: 'Medium articles', date: 'Apr 2023', url: 'https://medium.com/@liamnaylorr', cta: 'Read articles' },
   { name: 'Content design and UX writing for a travel website with 1M+ users.', value: 'BC Ferries website', date: 'Sept 2020', url: '/copywriting/bcf-website', cta: 'View project' },
-  { name: 'Writing travel content for an \"Expedia-like\" travel package platform.', value: 'BC Ferries Vacations', date: 'Sept 2020', url: '/copywriting/bcfv', cta: 'See BC Ferries Vacations' },
+  { name: 'Writing travel content for an \"Expedia-like\" travel package platform.', value: 'BC Ferries Vacations', date: 'Sept 2020', url: '/copywriting/bcf-vacations', cta: 'See BC Ferries Vacations' },
 ]
 
 export default function CopywritingLanding() {

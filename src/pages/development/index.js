@@ -57,13 +57,13 @@ const skills = [
     type: 'Systems & databases',
     list: [
       "Git",
+      "Docker",
       "Railway",
       "Netlify",
       "Prisma",
       "Supabase",
       "PostgreSQL",
       "MySQL",
-      "DevOps"
     ]
   },
   {
