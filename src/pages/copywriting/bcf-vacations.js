@@ -30,19 +30,19 @@ export default function BcfWebsite() {
                   <p className="mt-1 h-5 w-5 flex-none text-lg text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     ✅
                   </p>
-                  <span><strong className="font-semibold text-gray-900">UX writing:</strong> Produced microcopy across the app in collaboration with UI/UX designers, including the booking flow, schedules, current conditions and more.</span>
+                  <span><strong className="font-semibold text-gray-900">Hotel and activity content:</strong> Wrote concise copy for hundreds of hotels and activities to help customers evaluate their accommodation options.</span>
                 </li>
                 <li className="flex gap-x-3">
                   <p className="mt-1 h-5 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     ✅
                   </p>
-                  <span><strong className="font-semibold text-gray-900">Writing promo content:</strong> Wrote and managed reviews of all web promotional content and app store creative.</span>
+                  <span><strong className="font-semibold text-gray-900">UX writing for booking flow:</strong> Wrote and managed reviews of all web promotional content and app store creative.</span>
                 </li>
                 <li className="flex gap-x-3">
                   <p className="mt-1 h-5 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     ✅
                   </p>
-                  <span><strong className="font-semibold text-gray-900">User testing:</strong> Led user device testing and performing content updates in response to beta release feedback.</span>
+                  <span><strong className="font-semibold text-gray-900">Designed and wrote customer emails:</strong> Led user device testing and performing content updates in response to beta release feedback.</span>
                 </li>
               </ul>
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Clear, concise and helpful</h2>
