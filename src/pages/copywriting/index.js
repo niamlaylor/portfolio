@@ -3,9 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ProjectCTA from '../../components/buttons/ProjectCTA';
 
 const links = [
-  { name: 'BC Ferries app', href: '/copywriting/bcf-app' },
-  { name: 'BC Ferries website', href: '/copywriting/bcf-website' },
-  { name: 'DeeBee\'s packaging', href: '#' },
+  { name: 'Connect on LinkedIn', href: 'https://www.linkedin.com/in/liamnnaylor/' },
   { name: 'Medium articles', href: '#' },
 ]
 const stats = [
@@ -19,17 +17,20 @@ export default function CopywritingLanding() {
   return (
     <div className="relative isolate overflow-hidden py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl lg:mx-0">
-          <FontAwesomeIcon icon={faPenToSquare} size="4x" className={"mb-5 text-blue-500"}/>
-          <h2 className="text-4xl font-bold tracking-tight sm:text-6xl">Copywriting</h2>
-          <p className="mt-6 text-lg leading-8">
-            Check out my latest writing projects below:
-          </p>
-        </div>
+      <div className="mx-auto max-w-2xl lg:mx-0">
+        <FontAwesomeIcon icon={faPenToSquare} size="4x" className="mb-5 text-blue-500" />
+        <h2 className="text-4xl pb-4 font-bold bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text tracking-tight sm:text-6xl">
+          Copywriting
+        </h2>
+        <p className="mt-6 text-lg leading-8">
+          Check out my latest writing projects below:
+        </p>
+      </div>
+
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 sm:grid-cols-2 md:flex lg:gap-x-10">
             {links.map((link) => (
-              <a key={link.name} href={link.href} className={"hover:text-blue-500"}>
+              <a key={link.name} href={link.href} className={"hover:text-purple-600"}>
                 {link.name} <span aria-hidden="true">&rarr;</span>
               </a>
             ))}
@@ -40,7 +41,7 @@ export default function CopywritingLanding() {
                 <ProjectCTA url={stat.url}>{stat.cta}</ProjectCTA>
                 <dt className="text-base leading-7 text-gray-800">{stat.name}</dt>
                 <dd className="text-2xl font-bold leading-9 tracking-tight text-gray-900">{stat.value}</dd>
-                <dd className="text-sm font-bold leading-9 tracking-tight text-blue-500">{stat.date}</dd>
+                <dd className="text-sm font-bold leading-9 tracking-tight text-purple-600">{stat.date}</dd>
               </div>
             ))}
           </dl>
