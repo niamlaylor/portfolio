@@ -30,7 +30,7 @@ export default function CopywritingLanding() {
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 sm:grid-cols-2 md:flex lg:gap-x-10">
             {links.map((link) => (
-              <a key={link.name} href={link.href} className={"hover:text-purple-600"}>
+              <a key={link.name} href={link.href} className={"hover:text-blue-500"}>
                 {link.name} <span aria-hidden="true">&rarr;</span>
               </a>
             ))}
@@ -41,7 +41,7 @@ export default function CopywritingLanding() {
                 <ProjectCTA url={stat.url}>{stat.cta}</ProjectCTA>
                 <dt className="text-base leading-7 text-gray-800">{stat.name}</dt>
                 <dd className="text-2xl font-bold leading-9 tracking-tight text-gray-900">{stat.value}</dd>
-                <dd className="text-sm font-bold leading-9 tracking-tight text-purple-600">{stat.date}</dd>
+                <dd className="text-sm font-bold leading-9 tracking-tight text-blue-500">{stat.date}</dd>
               </div>
             ))}
           </dl>
