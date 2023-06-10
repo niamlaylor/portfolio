@@ -22,8 +22,8 @@ export default function BcfWebsite() {
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
-              <p className="mb-2">BC Ferries Vacations offers a world-class selection of travel packages that combine ferry travel with hotel and activities.</p>
-              <p>In 2020, our team launched a new booking website for BC Ferries Vacations - complete with hundreds of west-coast hotels, activities and curated vacation packages. Think Expedia, just with ferries.</p>
+              <p className="mb-2">BC Ferries Vacations offers a wide selection of travel packages that pair ferry travel with hotels and activities.</p>
+              <p>In 2020, our team launched a new booking website for BC Ferries Vacations - complete with hundreds of west-coast hotels, activities and curated vacation packages. Think Expedia, with ferries.</p>
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">My role</h2>
               <ul role="list" className="mt-6 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
@@ -36,21 +36,21 @@ export default function BcfWebsite() {
                   <p className="mt-1 h-5 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     ✅
                   </p>
-                  <span><strong className="font-semibold text-gray-900">UX writing for booking flow:</strong> Wrote and managed reviews of all web promotional content and app store creative.</span>
+                  <span><strong className="font-semibold text-gray-900">UX writing for booking flow:</strong> Wrote microcopy for the end-to-end booking experience.</span>
                 </li>
                 <li className="flex gap-x-3">
                   <p className="mt-1 h-5 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     ✅
                   </p>
-                  <span><strong className="font-semibold text-gray-900">Designed and wrote customer emails:</strong> Led user device testing and performing content updates in response to beta release feedback.</span>
+                  <span><strong className="font-semibold text-gray-900">Email design and copy:</strong> Designed and wrote email templates for booking confirmations, pre-travel reminders, waitlists requests and more.</span>
                 </li>
               </ul>
-              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Clear, concise and helpful</h2>
-              <p className="mt-6 mb-2">Our goal with this app was to drastically reduce the number of user interactions required to make a booking and access travel information. We also introduced a feature called Express Book, which allows users to instantly book the next available sailing instead of scanning the list of sailings for the day and picking the first one available.</p>
-              <p>As is best practice on mobile, my writing approach was to be extremely concise, while still being helpful to the user. The app introduced a brand new booking experience to customers who had been using the website to book travel for decades, so microcopy was key to help them learn the interface.</p>
+              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Creating a world-class travel experience</h2>
+              <p className="mt-6 mb-2">As a growing business, BC Ferries Vacations needed a modern and scalable booking platform that would allow tourists from all over the world to experience its unique travel offerings.</p>
+              <p>With a similar mobile-first style to the <a href="/copywriting/bcf-website" className="hover:underline text-blue-700">BC Ferries website</a>, my writing style focused on being as concise as possible, without sacrificing clarity. The majority of customers using this website are not local, so they rely on effective copywriting to guide them in the right direction.</p>
             </div>
-            <a href="https://www.bcferries.com" target="_blank" rel="noopener noreferrer" className="mt-12 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">
-              Try out the app &nbsp; <FontAwesomeIcon icon={faUpRightFromSquare} size="xs" />
+            <a href="https://www.bcferries.com/vacations" target="_blank" rel="noopener noreferrer" className="mt-12 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">
+              Visit BC Ferries Vacations &nbsp; <FontAwesomeIcon icon={faUpRightFromSquare} size="xs" />
             </a>
           </div>
         </div>
