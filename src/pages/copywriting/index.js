@@ -19,7 +19,7 @@ export default function CopywritingLanding() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
       <div className="mx-auto max-w-2xl lg:mx-0">
         <FontAwesomeIcon icon={faPenToSquare} size="4x" className="mb-5 text-blue-500" />
-        <h2 className="text-4xl pb-4 font-bold bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text tracking-tight sm:text-6xl">
+        <h2 className="text-4xl pb-2 font-bold bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text tracking-tight sm:text-6xl">
           Copywriting
         </h2>
         <p className="mt-6 text-lg leading-8">
