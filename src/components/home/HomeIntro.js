@@ -16,7 +16,7 @@ export default function HomeIntro({ handleHover, handleMouseLeave, getImageSrc }
         className="m-8 rounded-full shadow-md m-2"
       />
       <Heading2>Hi, I'm Liam.</Heading2>
-      <p className="mt-5">I'm aa full-stack developer and digital copywriter.</p>
+      <p className="mt-5">I'm a full-stack developer and copywriter with experience writing for nine-figure eCommerce and SaaS websites.</p>
       <Experience />
       <Languages />
     </section>
