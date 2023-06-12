@@ -41,7 +41,7 @@ const stats = [
 ]
 const skills = [
   { 
-    type: 'Frameworks & libraries',
+    type: 'Frameworks & Libraries',
     list: [
       "Node.js",
       "React",
@@ -54,7 +54,7 @@ const skills = [
     ]
   },
   { 
-    type: 'Systems & databases',
+    type: 'Systems & Databases',
     list: [
       "Git",
       "Docker",
