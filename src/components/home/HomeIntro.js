@@ -1,5 +1,4 @@
 import Languages from "../home/languages/Languages";
-import Experience from "./languages/Experience";
 import Heading2 from "../headers/h2";
 import ExperienceGrid from "./languages/ExperienceGrid";
 
@@ -18,7 +17,7 @@ export default function HomeIntro({ handleHover, handleMouseLeave, getImageSrc }
       />
       <Heading2>Hi, I'm Liam.</Heading2>
       <div className="max-w-xl text-base leading-7 text-gray-700 sm:max-w-md md:max-w-lg">
-        <p className="mt-5">I'm a full-stack developer and copywriter with experience writing for nine-figure eCommerce and SaaS websites.</p>
+        <p className="mt-5 mb-5">I'm a full-stack developer and copywriter with experience writing for nine-figure eCommerce and SaaS websites.</p>
       </div>
       <ExperienceGrid />
       <Languages />
