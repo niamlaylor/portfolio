@@ -8,7 +8,6 @@ export default function HomeIntro({ handleHover, handleMouseLeave, getImageSrc }
     <section className="flex flex-col items-center justify-center mt-20 mb-20">
       <img
         src={getImageSrc()}
-        height={400}
         width={400}
         onMouseEnter={handleHover}
         onMouseLeave={handleMouseLeave}
