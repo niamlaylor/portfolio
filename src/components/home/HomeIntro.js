@@ -17,7 +17,7 @@ export default function HomeIntro({ handleHover, handleMouseLeave, getImageSrc }
       />
       <Heading2>Hi, I'm Liam.</Heading2>
       <div className="max-w-xl text-base leading-7 text-gray-700 sm:max-w-md md:max-w-lg">
-        <p className="mt-5 mb-5">I'm a full-stack developer and copywriter with experience writing for nine-figure eCommerce and SaaS applications. I can produce clean and efficient code, write exceptional copy, and design gorgeous interfaces—a rare skillset.</p>
+        <p className="mt-5 mb-5">I'm a full-stack developer and copywriter with experience writing for nine-figure SaaS websites and apps. I can produce clean and efficient code, write exceptional copy, and design gorgeous interfaces—a rare skillset.</p>
       </div>
       <ExperienceGrid />
       <Languages />
