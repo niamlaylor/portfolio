@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import { faPenToSquare } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ProjectCTA from '../../components/buttons/ProjectCTA';
@@ -16,6 +17,9 @@ const stats = [
 export default function CopywritingLanding() {
   return (
     <div className="relative isolate overflow-hidden py-24 sm:py-32">
+      <Head>
+        <title>Copywriting | Liam Naylor</title>
+      </Head>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
       <div className="mx-auto max-w-2xl lg:mx-0">
         <FontAwesomeIcon icon={faPenToSquare} size="4x" className="mb-5 text-blue-500" />

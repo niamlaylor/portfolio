@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import RepoCTA from "@/components/buttons/RepoCTA";
 import Languages from "@/components/home/languages/Languages";
 import { faCode } from '@fortawesome/free-solid-svg-icons';
@@ -81,6 +82,9 @@ const skills = [
 export default function DevelopmentLanding() {
   return (
     <div className="relative isolate overflow-hidden bg-gray-100 py-24 sm:py-32">
+      <Head>
+        <title>Development | Liam Naylor</title>
+      </Head>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <FontAwesomeIcon icon={faCode} size="4x" className={"mb-5"}/>

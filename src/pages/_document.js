@@ -4,9 +4,6 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>
-          Liam Naylor | Portfolio
-        </title>
       </Head>
       <body>
         <Main />
