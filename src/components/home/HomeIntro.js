@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Languages from "../home/languages/Languages";
 import Heading2 from "../headers/h2";
 import ExperienceGrid from "./languages/ExperienceGrid";
@@ -6,13 +7,14 @@ export default function HomeIntro({ handleHover, handleMouseLeave, getImageSrc }
   
   return (
     <section className="flex flex-col items-center justify-center mt-20 mb-20">
-      <img
+      <Image
         src={getImageSrc()}
         width={400}
+        height={400}
         onMouseEnter={handleHover}
         onMouseLeave={handleMouseLeave}
         loading="lazy"
-        className="m-8 rounded-full shadow-md m-2"
+        className="m-8 rounded-full shadow-md"
       />
       <Heading2>Hi, I'm Liam.</Heading2>
       <div className="max-w-xl text-base leading-7 text-gray-700 sm:max-w-md md:max-w-lg">
