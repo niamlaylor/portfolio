@@ -120,8 +120,8 @@ export default function DevelopmentLanding() {
           {skills.map((skill) => (
             <div key={skill.type} className="flex flex-col hover:bg-gray-200 p-5">
               <dd className="text-2xl font-bold leading-9 tracking-tight text-gray-900">{skill.type}</dd>
-              {skill.list.map((library, index) => {
-                return <dt key={index} className="text-base leading-7 text-gray-800">{library}</dt>
+              {skill.list.map((library) => {
+                return <dt key={library} className="text-base leading-7 text-gray-800">{library}</dt>
               })}
             </div>
           ))}

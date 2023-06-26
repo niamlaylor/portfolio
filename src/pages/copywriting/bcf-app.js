@@ -33,7 +33,7 @@ export default function BcfWebsite() {
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
-              <p className="mb-2">With overwhelming customer feedback calling for a more efficient way to book sailings and check travel information, our team designed a streamlined mobile app that allows users to preset their travel details so they don't have to re-enter it everytime they book.</p>
+              <p className="mb-2">With overwhelming customer feedback calling for a more efficient way to book sailings and check travel information, our team designed a streamlined mobile app that allows users to preset their travel details so they don&apos;t have to re-enter it everytime they book.</p>
               <p>The app also features redesigned layouts for schedules and current conditions - two pillars of the BC Ferries website that customers have used for decades.</p>
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">My role</h2>
               <ul role="list" className="mt-6 space-y-8 text-gray-600">

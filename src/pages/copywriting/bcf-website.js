@@ -34,7 +34,7 @@ export default function BcfWebsite() {
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
-              <p className="mb-2">Our team led a complete redesign of the BC Ferries website from the ground up, including a reimagined booking experience, better organized web content, an "Expedia-like" travel package booking service for BC Ferries Vacations, and more.</p>
+              <p className="mb-2">Our team led a complete redesign of the BC Ferries website from the ground up, including a reimagined booking experience, better organized web content, an &quot;Expedia-like&quot; travel package booking service for BC Ferries Vacations, and more.</p>
               <p>The original website had an out-of-date design that was a pain to use on a mobile device, so our strategy was to create a crisp and concise layout with a mobile-first, responsive layout. The new website launched in the fall of 2020 and has processed billions of dollars in transactions since.</p>
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">My role</h2>
               <ul role="list" className="mt-6 space-y-8 text-gray-600">
@@ -59,7 +59,7 @@ export default function BcfWebsite() {
               </ul>
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Reimagined voice and tone</h2>
               <p className="mt-6 mb-2">For years, BC Ferries was known for its rigid tone when communicating with customers. As a copywriter leading content development on the new website, my role was to champion a more human and relatable voice and tone company-wide, and ensure consistency across all of our digital touchpoints.</p>
-              <p>BC Ferries is also known for having highly complex business rules and operational procedures. My biggest challenge on this project was fully understanding these complexities and translating it into clear and concise content for our B2C and B2B customer base. My approach was to break down complicated procedures into simple, easy-to-understand steps. This resulted in a more accessible and user-friendly website that resonates with BC Ferries' diverse customer base.</p>
+              <p>BC Ferries is also known for having highly complex business rules and operational procedures. My biggest challenge on this project was fully understanding these complexities and translating it into clear and concise content for our B2C and B2B customer base. My approach was to break down complicated procedures into simple, easy-to-understand steps. This resulted in a more accessible and user-friendly website that resonates with BC Ferries&apos; diverse customer base.</p>
             </div>
             <Link href="https://www.bcferries.com" target="_blank" rel="noopener noreferrer" className="mt-12 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-indigo-700">
               Visit the BC Ferries website &nbsp; <FontAwesomeIcon icon={faUpRightFromSquare} size="xs" />
