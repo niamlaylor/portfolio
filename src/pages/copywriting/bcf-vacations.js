@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import Link from 'next/link';
+import Image from 'next/image';
 import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -21,7 +23,12 @@ export default function BcfWebsite() {
           </div>
         </div>
         <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-          <img className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[30rem] md:w-[40rem]" src="https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/bcfv-home-widget.jpg" alt="" />
+          <Image 
+            className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[30rem] md:w-[40rem]" 
+            src="https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/bcfv-home-widget.jpg" 
+            alt=""
+            width={300}
+            height={150}/>
         </div>
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
@@ -51,11 +58,11 @@ export default function BcfWebsite() {
               </ul>
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Creating a world-class travel experience</h2>
               <p className="mt-6 mb-2">As a growing business, BC Ferries Vacations needed a modern and scalable booking platform that would allow tourists from all over the world to experience its unique travel offerings.</p>
-              <p>With a similar mobile-first style to the <a href="/copywriting/bcf-website" className="hover:underline text-blue-700">BC Ferries website</a>, my writing style focused on being as concise as possible, without sacrificing clarity. The majority of customers using this website are not local, so they rely on effective copywriting to guide them in the right direction.</p>
+              <p>With a similar mobile-first style to the <Link href="/copywriting/bcf-website" className="hover:underline text-blue-700">BC Ferries website project</Link>, my writing style focused on being as concise as possible, without sacrificing clarity. The majority of customers using this website are not local, so they rely on effective copywriting to guide them in the right direction.</p>
             </div>
-            <a href="https://www.bcferries.com/vacations" target="_blank" rel="noopener noreferrer" className="mt-12 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">
+            <Link href="https://www.bcferries.com/vacations" target="_blank" rel="noopener noreferrer" className="mt-12 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">
               Visit BC Ferries Vacations &nbsp; <FontAwesomeIcon icon={faUpRightFromSquare} size="xs" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
