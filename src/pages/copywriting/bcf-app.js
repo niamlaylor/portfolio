@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import Link from 'next/link';
+import Image from 'next/image';
 import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -21,7 +23,12 @@ export default function BcfWebsite() {
           </div>
         </div>
         <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-          <img className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[30rem] md:w-[40rem]" src="https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/bcf-app-centre-WEB.jpg" alt="" />
+          <Image 
+            className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[30rem] md:w-[40rem]" 
+            src="https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/bcf-app-centre-WEB.jpg" 
+            alt=""
+            width={200}
+            height={150} />
         </div>
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
@@ -53,9 +60,9 @@ export default function BcfWebsite() {
               <p className="mt-6 mb-2">Our goal with this app was to drastically reduce the number of user interactions required to make a booking and access travel information. We also introduced a feature called Express Book, which allows users to instantly book the next available sailing instead of scanning the list of sailings for the day and picking the first one available.</p>
               <p>As is best practice on mobile, my writing approach was to be extremely concise, while still being helpful to the user. The app introduced a brand new booking experience to customers who had been using the website to book travel for decades, so microcopy was key to help them learn the interface.</p>
             </div>
-            <a href="https://www.bcferries.com" target="_blank" rel="noopener noreferrer" className="mt-12 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">
+            <Link href="https://www.bcferries.com/app" target="_blank" rel="noopener noreferrer" className="mt-12 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">
               Try out the app &nbsp; <FontAwesomeIcon icon={faUpRightFromSquare} size="xs" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
