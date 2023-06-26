@@ -1,4 +1,8 @@
 import Head from "next/head";
+import Link from "next/link";
+import Image from "next/image";
+import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function BcfWebsite() {
   return (
@@ -19,7 +23,13 @@ export default function BcfWebsite() {
           </div>
         </div>
         <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-          <img className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[50rem]" src="https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/bc-ferries-inside-passage-center-WEB.jpg" alt="" />
+          <Image 
+            className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[50rem]" 
+            src="https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/bc-ferries-inside-passage-center-WEB.jpg" 
+            alt=""
+            width={300}
+            height={150}
+          />
         </div>
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
@@ -51,9 +61,9 @@ export default function BcfWebsite() {
               <p className="mt-6 mb-2">For years, BC Ferries was known for its rigid tone when communicating with customers. As a copywriter leading content development on the new website, my role was to champion a more human and relatable voice and tone company-wide, and ensure consistency across all of our digital touchpoints.</p>
               <p>BC Ferries is also known for having highly complex business rules and operational procedures. My biggest challenge on this project was fully understanding these complexities and translating it into clear and concise content for our B2C and B2B customer base. My approach was to break down complicated procedures into simple, easy-to-understand steps. This resulted in a more accessible and user-friendly website that resonates with BC Ferries' diverse customer base.</p>
             </div>
-            <a href="https://www.bcferries.com" target="_blank" rel="noopener noreferrer" className="mt-12 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-indigo-700">
-              Visit the BC Ferries website
-            </a>
+            <Link href="https://www.bcferries.com" target="_blank" rel="noopener noreferrer" className="mt-12 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-indigo-700">
+              Visit the BC Ferries website &nbsp; <FontAwesomeIcon icon={faUpRightFromSquare} size="xs" />
+            </Link>
             <p className="mt-3 text-gray-500 text-xs"><i>And maybe book a sailing or two... </i>⛴</p>
           </div>
         </div>
