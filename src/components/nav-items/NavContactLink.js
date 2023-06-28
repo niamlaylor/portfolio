@@ -13,6 +13,7 @@ export default function NavContactLink( { children } ) {
               src={'https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/github-mark.png'}
               width={20}
               height={20}
+              alt="Liam Naylor Github link"
             />
             <p className={`${linkClass} flex`}>
               {children}
@@ -29,6 +30,7 @@ export default function NavContactLink( { children } ) {
               src={'https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/linkedin-web.png'}
               width={20}
               height={20}
+              alt="Liam Naylor LinkedIn link"
             />
             <p className={`${linkClass} flex`}>
               {children}
@@ -46,6 +48,7 @@ export default function NavContactLink( { children } ) {
               width={20}
               height={20}
               className={"rounded-full"}
+              alt="Liam Naylor Medium link"
             />
             <p className={`${linkClass} flex`}>
               {children}

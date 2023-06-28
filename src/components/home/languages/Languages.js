@@ -16,6 +16,7 @@ export default function Languages() {
             height={51}
             width={80}
             className={`rounded-tl-lg ${logoSize}`}
+            alt="Coding languages Liam Naylor writes in"
           />
           <span className="text-xs mt-2">JavaScript</span>
         </div>
@@ -26,6 +27,7 @@ export default function Languages() {
             height={51}
             width={90}
             className={`rounded-tl-lg ${logoSize}`}
+            alt="Coding languages Liam Naylor writes in"
           />
           <span className="text-xs mt-2">Ruby</span>
         </div>
@@ -36,6 +38,7 @@ export default function Languages() {
             height={51}
             width={60}
             className={`rounded-tl-lg ${logoSize}`}
+            alt="Coding languages Liam Naylor writes in"
           />
           <span className="text-xs mt-2">HTML</span>
         </div>
@@ -46,6 +49,7 @@ export default function Languages() {
             height={51}
             width={60}
             className={`rounded-tl-lg ${logoSize}`}
+            alt="Coding languages Liam Naylor writes in"
           />
           <span className="text-xs mt-2">CSS</span>
         </div>
@@ -56,6 +60,7 @@ export default function Languages() {
             height={51}
             width={60}
             className={`rounded-tl-lg ${logoSize}`}
+            alt="Coding languages Liam Naylor writes in"
           />
           <span className="text-xs mt-2">SQL</span>
         </div>
