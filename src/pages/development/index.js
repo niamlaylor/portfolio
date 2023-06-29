@@ -101,7 +101,7 @@ export default function DevelopmentLanding() {
               </a>
             ))}
           </div>
-          <dl className="mt-4 grid grid-cols-1 gap-8 sm:mt-14 sm:grid-cols-1 lg:grid-cols-3">
+          <dl className="mt-4 grid grid-cols-1 gap-8 sm:mt-14 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             {stats.map((stat) => (
               <div key={stat.name} className="flex flex-col-reverse hover:bg-gray-200 p-5">
                 <RepoCTA url={stat.repo}>View on Github</RepoCTA>
