@@ -6,7 +6,7 @@ import ExperienceGrid from "./languages/ExperienceGrid";
 export default function HomeIntro({ handleHover, handleMouseLeave, getImageSrc }) {
   
   return (
-    <section className="flex flex-col items-center justify-center mt-20 mb-20">
+    <section className="flex flex-col items-center justify-center mt-20 mb-20 ml-5 mr-5">
       <Image
         src={getImageSrc()}
         width={400}
@@ -14,7 +14,7 @@ export default function HomeIntro({ handleHover, handleMouseLeave, getImageSrc }
         onMouseEnter={handleHover}
         onMouseLeave={handleMouseLeave}
         loading="lazy"
-        className="m-8 rounded-full shadow-md"
+        className="mb-8 rounded-full shadow-md"
         alt="Liam Naylor"
       />
       <Heading2>Hi, I&apos;m Liam.</Heading2>
