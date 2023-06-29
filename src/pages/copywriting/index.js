@@ -40,7 +40,7 @@ export default function CopywritingLanding() {
               </Link>
             ))}
           </div>
-          <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-14 sm:grid-cols-2 lg:grid-cols-4">
+          <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-14 sm:grid-cols-1 lg:grid-cols-4">
           {stats.map((stat) => (
               <div key={stat.name} className="flex flex-col-reverse hover:bg-gray-200 p-5">
                 <ProjectCTA url={stat.url}>{stat.cta}</ProjectCTA>
