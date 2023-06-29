@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import RepoCTA from "@/components/buttons/RepoCTA";
 import Languages from "@/components/home/languages/Languages";
+import Link from 'next/link';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -96,9 +97,9 @@ export default function DevelopmentLanding() {
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base text-gray-800 font-semibold leading-7 sm:grid-cols-2 md:flex lg:gap-x-10">
             {links.map((link) => (
-              <a key={link.name} target="_blank" href={link.href} className={"hover:text-blue-500"}>
+              <Link key={link.name} target="_blank" href={link.href} className={"hover:text-blue-500"}>
                 {link.name} <span aria-hidden="true">&rarr;</span>
-              </a>
+              </Link>
             ))}
           </div>
           <dl className="mt-4 grid grid-cols-1 gap-8 sm:mt-14 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">

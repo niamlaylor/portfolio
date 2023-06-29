@@ -6,7 +6,7 @@ import ProjectCTA from '../../components/buttons/ProjectCTA';
 
 const links = [
   { name: 'Connect on LinkedIn', href: 'https://www.linkedin.com/in/liamnnaylor/' },
-  { name: 'Medium articles', href: '#' },
+  { name: 'Medium articles', href: 'https://medium.com/@liamnaylorr' },
 ]
 const stats = [
   { name: 'UX writing for an iOS/Android travel app with six-figure downloads.', value: 'BC Ferries app', date: 'Apr 2023', url: '/copywriting/bcf-app', cta: 'View the app' },
@@ -35,7 +35,7 @@ export default function CopywritingLanding() {
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 sm:grid-cols-2 md:flex lg:gap-x-10">
             {links.map((link) => (
-              <Link key={link.name} href={link.href} className={"hover:text-blue-500"}>
+              <Link key={link.name} href={link.href} target="_blank" className={"hover:text-blue-500"}>
                 {link.name} <span aria-hidden="true">&rarr;</span>
               </Link>
             ))}
