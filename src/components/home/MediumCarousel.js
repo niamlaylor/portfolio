@@ -2,6 +2,7 @@ import Heading2 from '../headers/h2';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import ProjectCTA from '../buttons/ProjectCTA';
+import { getFormattedDate } from '@/utils/helpers';
 
 export default function MediumCarousel() {
   const [rssData, setRssData] = useState([]);
@@ -27,7 +28,7 @@ export default function MediumCarousel() {
               <div key={article.title[0]} className="flex flex-col-reverse hover:bg-gray-200 p-5">
                 <ProjectCTA url={article.link[0]}>Read article</ProjectCTA>
                 <dd className="text-2xl font-bold leading-9 tracking-tight text-gray-900">{article.title[0]}</dd>
-                <dd className="text-sm font-light leading-9 tracking-tight text-black-500">{article.pubDate[0]}</dd>
+                <dd className="text-sm font-light leading-9 tracking-tight text-black-500">{getFormattedDate(article.pubDate[0])}</dd>
               </div>
             ))}
           </dl>
