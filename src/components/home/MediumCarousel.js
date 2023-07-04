@@ -19,15 +19,15 @@ export default function MediumCarousel() {
 
   if (rssData.length > 0) {
     return (
-      <div className="mx-auto mt-10 max-w-2xl lg:mx-0">
+      <div className="mx-auto mt-20 max-w-2xl lg:mx-0 bg-gray-100 p-5">
         <Heading2>Medium articles</Heading2>
         <div className="flex flex-row">
           <dl className="grid grid-cols-1 gap-4 sm:mt-8 sm:grid-cols-1 md:grid-cols-2">
             {rssData.map((article, index) => (
-              <div key={index} className="flex flex-col-reverse hover:bg-gray-200 p-5">
+              <div key={article.title[0]} className="flex flex-col-reverse hover:bg-gray-200 p-5">
                 <ProjectCTA url={article.link[0]}>Read article</ProjectCTA>
                 <dd className="text-2xl font-bold leading-9 tracking-tight text-gray-900">{article.title[0]}</dd>
-                <dd className="text-sm font-bold leading-9 tracking-tight text-blue-500">{article.pubDate[0]}</dd>
+                <dd className="text-sm font-light leading-9 tracking-tight text-black-500">{article.pubDate[0]}</dd>
               </div>
             ))}
           </dl>
