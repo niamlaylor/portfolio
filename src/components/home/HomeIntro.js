@@ -2,6 +2,7 @@ import Image from "next/image";
 import Languages from "../home/languages/Languages";
 import Heading2 from "../headers/h2";
 import ExperienceGrid from "./languages/ExperienceGrid";
+import MediumCarousel from "./MediumCarousel";
 
 export default function HomeIntro({ handleHover, handleMouseLeave, getImageSrc }) {
   
@@ -23,6 +24,7 @@ export default function HomeIntro({ handleHover, handleMouseLeave, getImageSrc }
       </div>
       <ExperienceGrid />
       <Languages />
+      <MediumCarousel />
     </section>
   );
 };
