@@ -52,7 +52,6 @@ export default function CopywritingLanding() {
             ))}
           </dl>
         </div>
-        <MediumCarousel />
       </div>
     </div>
   )
