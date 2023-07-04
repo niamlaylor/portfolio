@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { faPenToSquare } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ProjectCTA from '../../components/buttons/ProjectCTA';
+import MediumCarousel from '@/components/home/MediumCarousel';
 
 const links = [
   { name: 'Connect on LinkedIn', href: 'https://www.linkedin.com/in/liamnnaylor/' },
@@ -51,6 +52,7 @@ export default function CopywritingLanding() {
             ))}
           </dl>
         </div>
+        <MediumCarousel />
       </div>
     </div>
   )
