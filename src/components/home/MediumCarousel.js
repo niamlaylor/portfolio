@@ -11,7 +11,6 @@ export default function MediumCarousel() {
     axios.get('/api/rss')
       .then((response) => {
         setRssData(response.data);
-        console.log('Component log: ', response.data[0]);
       })
       .catch((error) => {
         console.error('Error fetching data:', error);
