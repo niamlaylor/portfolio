@@ -17,9 +17,9 @@ export default function MediumCarousel() {
   }, []);
 
   return (
-    <div>
+    <div className="mt-12">
       {rssData.length > 0 && <Heading2>Medium articles</Heading2>}
-      <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-14 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+      <dl className="mt-8 grid grid-cols-1 gap-8 sm:mt-14 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         {rssData.length > 0 && rssData.map((article, index) => (
           <div key={index} className="flex flex-col-reverse hover:bg-gray-200 p-5">
             <dt className="text-base leading-7 text-gray-800">{article.title[0]}</dt>
