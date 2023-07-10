@@ -1,3 +1,5 @@
+![Liam Naylor portfolio site header](/public/portfolio-banner.jpg "Portfolio banner")
+
 This is my portfolio for deveopment and copywriting work. Go to [liamnaylor.io](https://www.liamnaylor.io) to see the production version.
 
 ## Getting Started
