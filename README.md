@@ -2,18 +2,18 @@ This is my portfolio for deveopment and copywriting work. Go to [liamnaylor.io](
 
 ## Getting Started
 
-First, run the development server:
+First, install all dependencies:
+
+```bash
+npm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
 # you can also use 
 # yarn or pnpm
-```
-
-Then install all dependencies:
-
-```bash
-npm install
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the local version of the project.
