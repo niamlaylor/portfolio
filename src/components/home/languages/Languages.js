@@ -36,7 +36,7 @@ export default function Languages() {
             src="https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/py-gs.jpg"
             loading="lazy"
             height={51}
-            width={75}
+            width={80}
             className={`rounded-tl-lg ${logoSize}`}
             alt="Coding languages Liam Naylor writes in"
           />
