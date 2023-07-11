@@ -10,6 +10,7 @@ export default function BcfWebsite() {
       <Head>
         <title>BC Ferries App | Liam Naylor</title>
         <meta name="description" content="See how I helped launch the BC Ferries mobile app through strong copywriting and user testing." />
+        <meta name="keywords" content="ui/ux design, copywriting, ux writing, mobile app, iOS, android" />
       </Head>
       <div className="absolute inset-0 -z-10 overflow-hidden">
       </div>

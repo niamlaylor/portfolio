@@ -16,6 +16,7 @@ export default function Home() {
       <Head>
         <title>Portfolio | Liam Naylor</title>
         <meta name="description" content="Check out some of my recent full-stack development projects in JavaScript, Ruby, Python and more." />
+        <meta name="keywords" content="javascript, python, ruby, react, development, coding, software, full-stack development, liam naylor" />
       </Head>
       <HomeIntro 
         handleHover={handleHover}

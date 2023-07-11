@@ -10,6 +10,7 @@ export default function BcfWebsite() {
       <Head>
         <title>BC Ferries Vacations | Liam Naylor</title>
         <meta name="description" content="See how I helped launch the BC Ferries Vacations website and email templates through effective copywriting and content design." />
+        <meta name="keywords" content="ui/ux design, copywriting, ux writing, website" />
       </Head>
       <div className="absolute inset-0 -z-10 overflow-hidden">
       </div>
