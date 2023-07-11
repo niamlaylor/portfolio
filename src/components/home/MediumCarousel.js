@@ -20,7 +20,7 @@ export default function MediumCarousel() {
   if (rssData.length > 0) {
     return (
       <div className="mx-auto mt-20 max-w-2xl lg:mx-0 bg-gray-100 p-5">
-        <Heading2>Medium articles</Heading2>
+        <Heading2>Medium Articles</Heading2>
         <div className="flex flex-row">
           <dl className="grid grid-cols-1 gap-4 sm:mt-8 sm:grid-cols-1 md:grid-cols-2">
             {rssData.map((article, index) => (
