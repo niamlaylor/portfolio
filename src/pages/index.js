@@ -15,6 +15,8 @@ export default function Home() {
     <main className="w-full">
       <Head>
         <title>Portfolio | Liam Naylor</title>
+        <meta name="description" content="Check out my unique portfolio of recent copywriting and web development projects." />
+        <meta name="keywords" content="javascript, python, ruby, react, development, coding, full-stack developer, liam naylor, copywriting" />
       </Head>
       <HomeIntro 
         handleHover={handleHover}

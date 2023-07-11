@@ -9,6 +9,8 @@ export default function BcfWebsite() {
     <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
       <Head>
         <title>BC Ferries Vacations | Liam Naylor</title>
+        <meta name="description" content="See how I helped launch the BC Ferries Vacations website and email templates through effective copywriting and content design." />
+        <meta name="keywords" content="ui/ux design, copywriting, ux writing, website" />
       </Head>
       <div className="absolute inset-0 -z-10 overflow-hidden">
       </div>

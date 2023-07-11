@@ -20,6 +20,8 @@ export default function CopywritingLanding() {
     <div className="relative isolate overflow-hidden py-24 sm:py-32">
       <Head>
         <title>Copywriting | Liam Naylor</title>
+        <meta name="description" content="Check out some of my recent copywriting projects." />
+        <meta name="keywords" content="ui/ux design, copywriting, ux writing, content design, marketing, liam naylor" />
       </Head>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
       <div className="mx-auto max-w-2xl lg:mx-0">
