@@ -85,6 +85,8 @@ export default function DevelopmentLanding() {
     <div className="relative isolate overflow-hidden bg-gray-100 py-24 sm:py-32">
       <Head>
         <title>Development | Liam Naylor</title>
+        <meta name="description" content="Check out some of my recent full-stack development projects in JavaScript, Ruby, Python and more." />
+        <meta name="keywords" content="javascript, python, ruby, react, development, coding, software, full-stack developer, liam naylor" />
       </Head>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
