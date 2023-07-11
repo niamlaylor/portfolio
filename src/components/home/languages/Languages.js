@@ -33,6 +33,17 @@ export default function Languages() {
         </div>
         <div className={`flex flex-col ${logoMargin} items-center text-center`}>
           <Image
+            src="https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/py-gs.jpg"
+            loading="lazy"
+            height={51}
+            width={80}
+            className={`rounded-tl-lg ${logoSize}`}
+            alt="Coding languages Liam Naylor writes in"
+          />
+          <span className="text-xs mt-2">Python</span>
+        </div>
+        <div className={`flex flex-col ${logoMargin} items-center text-center`}>
+          <Image
             src="https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/html-gs.jpg"
             loading="lazy"
             height={51}
@@ -40,18 +51,7 @@ export default function Languages() {
             className={`rounded-tl-lg ${logoSize}`}
             alt="Coding languages Liam Naylor writes in"
           />
-          <span className="text-xs mt-2">HTML</span>
-        </div>
-        <div className={`flex flex-col ${logoMargin} items-center text-center`}>
-          <Image
-            src="https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/css-gs.jpg"
-            loading="lazy"
-            height={51}
-            width={60}
-            className={`rounded-tl-lg ${logoSize}`}
-            alt="Coding languages Liam Naylor writes in"
-          />
-          <span className="text-xs mt-2">CSS</span>
+          <span className="text-xs mt-2">HTML/CSS</span>
         </div>
         <div className={`flex flex-col ${logoMargin} items-center text-center`}>
           <Image
