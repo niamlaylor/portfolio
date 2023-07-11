@@ -48,6 +48,7 @@ const skills = [
       "Node.js",
       "React",
       "Next.js",
+      "Flask",
       "Ajax",
       "Express",
       "jQuery",
