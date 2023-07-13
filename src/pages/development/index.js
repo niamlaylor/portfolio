@@ -117,11 +117,11 @@ export default function DevelopmentLanding() {
                   {stat.category.map((label, index) => {
                     if (index === 0) {
                       return (
-                        <button class="py-1 px-2 no-underline rounded-full text-white font-sans font-light text-xs bg-gray-700 btn-primary hover:text-white hover:bg-blue-light">{label}</button>
+                        <button key={index} class="py-1 px-2 no-underline rounded-full text-white font-sans font-light text-xs bg-gray-700 btn-primary hover:text-white hover:bg-blue-light">{label}</button>
                       )
                     } else {
                       return (
-                        <button class="py-1 px-2 no-underline rounded-full text-white font-sans font-light text-xs bg-gray-700 btn-primary hover:text-white hover:bg-blue-light ml-2">{label}</button>
+                        <button key={index} class="py-1 px-2 no-underline rounded-full text-white font-sans font-light text-xs bg-gray-700 btn-primary hover:text-white hover:bg-blue-light ml-2">{label}</button>
                       )
                     }
                   })}
