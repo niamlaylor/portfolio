@@ -2,6 +2,7 @@ import Head from 'next/head';
 import RepoCTA from "@/components/buttons/RepoCTA";
 import Languages from "@/components/home/languages/Languages";
 import Link from 'next/link';
+import LabelPill from '@/components/buttons/LabelPill';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -14,31 +15,36 @@ const stats = [
     name: 'See how I made my portfolio with Next.js, React and more.', 
     value: 'My portfolio', 
     date: 'Jun 2023', 
-    repo:'https://github.com/niamlaylor/portfolio' 
+    repo:'https://github.com/niamlaylor/portfolio',
+    category: ['JavaScript', 'React', 'Node.js'],
   },
   { 
     name: 'A recipe parser that creates a formatted recipe from a recipe site.', 
     value: 'Sifter', 
     date: 'Apr 2023', 
-    repo:'https://github.com/niamlaylor/recipes-next' 
+    repo:'https://github.com/niamlaylor/recipes-next',
+    category: ['JavaScript', 'React', 'Node.js'],
   },
   { 
     name: 'React application to allow applicants to book and manage job interviews.', 
     value: 'Scheduler', 
     date: 'Feb 2023', 
-    repo:'https://github.com/niamlaylor/scheduler' 
+    repo:'https://github.com/niamlaylor/scheduler',
+    category: ['JavaScript', 'React', 'Node.js'], 
   },
   { 
     name: 'Smart to-do list web app that automatically sorts tasks with AI.', 
     value: 'ListEasy', 
     date: 'Jan 2023', 
-    repo:'https://github.com/niamlaylor/smart-todo-list' 
+    repo:'https://github.com/niamlaylor/smart-todo-list',
+    category: ['JavaScript', 'jQuery', 'EJS'],
   },
   { 
     name: 'A JavaScript testing assertion library published on npm.', 
     value: 'Lotide', 
     date: 'Oct 2022', 
-    repo:'https://github.com/niamlaylor/lotide' 
+    repo:'https://github.com/niamlaylor/lotide',
+    category: ['JavaScript', 'Node.js']
   },
 ]
 const skills = [
@@ -108,6 +114,13 @@ export default function DevelopmentLanding() {
             {stats.map((stat) => (
               <div key={stat.name} className="flex flex-col-reverse hover:bg-gray-200 p-5">
                 <RepoCTA url={stat.repo}>View on Github</RepoCTA>
+                <div className="justify-left my-1 select-none flex">
+                  {stat.category.map((label, index) => {
+                    return (
+                      <LabelPill key={index} index={index}>{label}</LabelPill>
+                    );
+                  })}
+                </div>
                 <dt className="text-base leading-7 text-gray-800">{stat.name}</dt>
                 <dd className="text-2xl font-bold leading-9 tracking-tight text-gray-900">{stat.value}</dd>
                 <dd className="text-sm font-bold leading-9 tracking-tight text-blue-500">{stat.date}</dd>
