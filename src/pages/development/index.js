@@ -2,6 +2,7 @@ import Head from 'next/head';
 import RepoCTA from "@/components/buttons/RepoCTA";
 import Languages from "@/components/home/languages/Languages";
 import Link from 'next/link';
+import LabelPill from '@/components/buttons/LabelPill';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -113,17 +114,12 @@ export default function DevelopmentLanding() {
             {stats.map((stat) => (
               <div key={stat.name} className="flex flex-col-reverse hover:bg-gray-200 p-5">
                 <RepoCTA url={stat.repo}>View on Github</RepoCTA>
-                <div class="justify-left my-1 select-none flex">
+                <div className="justify-left my-1 select-none flex">
                   {stat.category.map((label, index) => {
-                    if (index === 0) {
-                      return (
-                        <button key={index} class="py-1 px-2 no-underline rounded-full text-white font-sans font-light text-xs bg-gray-700 btn-primary hover:text-white hover:bg-blue-light">{label}</button>
-                      )
-                    } else {
-                      return (
-                        <button key={index} class="py-1 px-2 no-underline rounded-full text-white font-sans font-light text-xs bg-gray-700 btn-primary hover:text-white hover:bg-blue-light ml-2">{label}</button>
-                      )
-                    }
+                    return (
+                      <LabelPill key={index} index={index}>{label}</LabelPill>
+                    )
+                    
                   })}
                 </div>
                 <dt className="text-base leading-7 text-gray-800">{stat.name}</dt>
