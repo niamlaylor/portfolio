@@ -118,8 +118,7 @@ export default function DevelopmentLanding() {
                   {stat.category.map((label, index) => {
                     return (
                       <LabelPill key={index} index={index}>{label}</LabelPill>
-                    )
-                    
+                    );
                   })}
                 </div>
                 <dt className="text-base leading-7 text-gray-800">{stat.name}</dt>
