@@ -114,7 +114,7 @@ export default function DevelopmentLanding() {
             {stats.map((stat) => (
               <div key={stat.name} className="flex flex-col-reverse hover:bg-gray-200 p-5">
                 <RepoCTA url={stat.repo}>View on Github</RepoCTA>
-                <div className="justify-left my-1 select-none flex">
+                <div className="justify-left mt-2 select-none flex">
                   {stat.category.map((label, index) => {
                     return (
                       <LabelPill key={index} index={index}>{label}</LabelPill>
