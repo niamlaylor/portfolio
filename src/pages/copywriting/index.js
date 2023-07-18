@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import LandingPageContact from '@/components/nav-items/LandingPageContact';
 import { faPenToSquare } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ProjectCTA from '../../components/buttons/ProjectCTA';
@@ -35,13 +36,7 @@ export default function CopywritingLanding() {
       </div>
 
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-          <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 sm:grid-cols-1 md:flex lg:gap-x-10">
-            {links.map((link) => (
-              <Link key={link.name} href={link.href} target="_blank" className={"hover:text-blue-500"}>
-                {link.name} <span aria-hidden="true">&rarr;</span>
-              </Link>
-            ))}
-          </div>
+          <LandingPageContact links={links}/>
           <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-14 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
           {stats.map((stat) => (
               <div key={stat.name} className="flex flex-col-reverse hover:bg-gray-200 p-5">

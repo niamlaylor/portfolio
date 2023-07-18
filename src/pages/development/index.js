@@ -3,6 +3,7 @@ import RepoCTA from "@/components/buttons/RepoCTA";
 import Languages from "@/components/home/languages/Languages";
 import Link from 'next/link';
 import LabelPill from '@/components/buttons/LabelPill';
+import LandingPageContact from '@/components/nav-items/LandingPageContact';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -103,13 +104,7 @@ export default function DevelopmentLanding() {
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-          <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base text-gray-800 font-semibold leading-7 sm:grid-cols-1 md:flex lg:gap-x-10">
-            {links.map((link) => (
-              <Link key={link.name} target="_blank" href={link.href} className={"hover:text-blue-500"}>
-                {link.name} <span aria-hidden="true">&rarr;</span>
-              </Link>
-            ))}
-          </div>
+          <LandingPageContact links={links}/>
           <dl className="mt-4 grid grid-cols-1 gap-8 sm:mt-14 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             {stats.map((stat) => (
               <div key={stat.name} className="flex flex-col-reverse hover:bg-gray-200 p-5">
