@@ -3,6 +3,7 @@ import Languages from "../home/languages/Languages";
 import Heading2 from "../headers/h2";
 import ExperienceGrid from "./languages/ExperienceGrid";
 import MediumCarousel from "./MediumCarousel";
+import Location from "./Location";
 
 export default function HomeIntro({ handleHover, handleMouseLeave, getImageSrc }) {
   
@@ -18,6 +19,7 @@ export default function HomeIntro({ handleHover, handleMouseLeave, getImageSrc }
         className="mb-8 rounded-full shadow-md"
         alt="Liam Naylor"
       />
+      <Location>Canmore, AB</Location>
       <Heading2>Hi, I&apos;m Liam.</Heading2>
       <div className="max-w-xl text-base leading-7 text-gray-700 sm:max-w-md md:max-w-lg">
         <p className="mt-5 mb-5 text-justify">I&apos;m a full-stack developer and copywriter with experience writing for nine-figure SaaS websites and apps. I can produce clean and efficient code, write exceptional copy, and design gorgeous interfaces—a rare skillset.</p>
