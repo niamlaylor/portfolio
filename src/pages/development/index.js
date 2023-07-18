@@ -1,9 +1,7 @@
 import Head from 'next/head';
-import RepoCTA from "@/components/buttons/RepoCTA";
 import Languages from "@/components/home/languages/Languages";
-import Link from 'next/link';
-import LabelPill from '@/components/buttons/LabelPill';
 import LandingPageContact from '@/components/nav-items/LandingPageContact';
+import ProjectGrid from '@/components/nav-items/ProjectGrid';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -104,24 +102,9 @@ export default function DevelopmentLanding() {
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
+          {/* div includes the contact and project grids */}
           <LandingPageContact links={links}/>
-          <dl className="mt-4 grid grid-cols-1 gap-8 sm:mt-14 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-            {stats.map((stat) => (
-              <div key={stat.name} className="flex flex-col-reverse hover:bg-gray-200 p-5">
-                <RepoCTA url={stat.repo}>View on Github</RepoCTA>
-                <div className="justify-left mt-2 select-none flex">
-                  {stat.category.map((label, index) => {
-                    return (
-                      <LabelPill key={index} index={index}>{label}</LabelPill>
-                    );
-                  })}
-                </div>
-                <dt className="text-base leading-7 text-gray-800">{stat.name}</dt>
-                <dd className="text-2xl font-bold leading-9 tracking-tight text-gray-900">{stat.value}</dd>
-                <dd className="text-sm font-bold leading-9 tracking-tight text-blue-500">{stat.date}</dd>
-              </div>
-            ))}
-          </dl>
+          <ProjectGrid type={"dev"} stats={stats}/>
         </div>
         <div className="flex mt-16 justify-center relative isolate overflow-hidden w-full bg-white py-12 sm:py-24">
           <Languages />

@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Link from 'next/link';
+import ProjectGrid from '@/components/nav-items/ProjectGrid';
 import LandingPageContact from '@/components/nav-items/LandingPageContact';
 import { faPenToSquare } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -36,17 +36,9 @@ export default function CopywritingLanding() {
       </div>
 
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
+          {/* div includes the contact and project grids */}
           <LandingPageContact links={links}/>
-          <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-14 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-          {stats.map((stat) => (
-              <div key={stat.name} className="flex flex-col-reverse hover:bg-gray-200 p-5">
-                <ProjectCTA url={stat.url}>{stat.cta}</ProjectCTA>
-                <dt className="text-base leading-7 text-gray-800">{stat.name}</dt>
-                <dd className="text-2xl font-bold leading-9 tracking-tight text-gray-900">{stat.value}</dd>
-                <dd className="text-sm font-bold leading-9 tracking-tight text-blue-500">{stat.date}</dd>
-              </div>
-            ))}
-          </dl>
+          <ProjectGrid type={"copy"} stats={stats}/>
         </div>
       </div>
     </div>
