@@ -18,9 +18,9 @@ export default function useApplicationData() {
 
   const getImageSrc = () => {
     if (state.hovered) {
-      return 'https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/liam-ella-bw.jpg';
+      return 'https://drive.google.com/uc?id=1kONe_03iIS6gHTg0bBlaIIhjfL2GFFZr';
     } else {
-      return 'https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/liamnaylor_bw.jpg';
+      return 'https://drive.google.com/uc?id=1u6I7FaW0Qy0NK2DhgM7Xx6uQM0-Y8xI-';
     }
   };
 

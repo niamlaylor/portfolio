@@ -1,4 +1,4 @@
-![Liam Naylor portfolio site header](https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/portfolio-banner.jpg "Portfolio banner")
+![Liam Naylor portfolio site header](https://drive.google.com/uc?id=1kf-de9TcfbKwllwYP91dpIGZQOgOGe7s "Portfolio banner")
 
 This is my portfolio for development and copywriting work. Go to [liamnaylor.io](https://www.liamnaylor.io) to see the production version.
 
