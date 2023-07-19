@@ -4,31 +4,31 @@ import LanguageLogo from "./LanguageLogo";
 const languages = [
   {
     name: "JavaScript",
-    url: "https://drive.google.com/uc?id=1-cSWQh0JQdkiEFOPyik6CNu2l1VwlvPw",
+    url: "https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/js-gs.jpg",
     height: 51,
     width: 80
   },
   {
     name: "Python",
-    url: "https://drive.google.com/uc?id=1n41nMozIOv8lT2cn46JVQz3qcQl5GX-t",
+    url: "https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/py-gs.jpg",
     height: 51,
     width: 80
   },
   {
     name: "Ruby",
-    url: "https://drive.google.com/uc?id=1rrwcM9ram6QaaiNROMhiyRgjApTrbar5",
+    url: "https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/rb-gs.jpg",
     height: 51,
     width: 90
   },
   {
     name: "HTML/CSS",
-    url: "https://drive.google.com/uc?id=1NybjWnCmyndk_0PhJkEKyUzgUNtELGQ_",
+    url: "https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/html-gs.jpg",
     height: 51,
     width: 60
   },
   {
     name: "SQL",
-    url: "https://drive.google.com/uc?id=1i_6HHo8gy79ilALOS8SOx1wnBKAQxlm_",
+    url: "https://raw.githubusercontent.com/niamlaylor/portfolio/main/public/sql-gs.jpg",
     height: 51,
     width: 60
   }
