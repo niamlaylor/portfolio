@@ -23,11 +23,11 @@ export default function Home() {
         handleMouseLeave={handleMouseLeave}
         getImageSrc={getImageSrc}
       />
-      <section className="flex flex-column text-white justify-center bg-gray-500">
+      {/* <section className="flex flex-column text-white justify-center bg-gray-500">
         <h2 className="w-full mt-2 text-3xl text-center font-bold tracking-tight text-white sm:text-4xl">
           Get In Touch
         </h2>
-      </section>
+      </section> */}
     </main>
   )
 }
